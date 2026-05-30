@@ -1,0 +1,36 @@
+# Find the Duplicate Number
+
+**Link:** https://leetcode.com/problems/find-the-duplicate-number
+
+## Problem
+Given an array `nums` containing `n + 1` integers where each integer is in the range `[1, n]`, there is exactly one repeated number. Return that duplicate number without modifying the array and using only O(1) extra space.
+
+## Solution
+Treat the array as a linked list where `nums[i]` is the next pointer from node `i`. Because a duplicate exists, there must be a cycle. Use Floyd's cycle detection: `hare` moves two steps at a time (`nums[nums[hare]]`) and `tor` moves one step (`nums[tor]`). After they meet inside the cycle, reset `tor` to `nums[0]` and advance both one step at a time — their meeting point is the duplicate.
+
+## Code
+```cpp
+class Solution {
+public:
+    int findDuplicate(vector<int>& nums) {
+        int hare = nums[0];
+        int tor = nums[0];
+
+        do {
+            hare = nums[nums[hare]];
+            tor = nums[tor];
+            //cout<<hare<<" "<<tor<<endl;
+        } while (hare != tor);
+
+        tor = nums[0];
+
+        while (hare != tor) {
+            hare = nums[hare];
+            tor = nums[tor];
+            //cout<<hare<<" "<<tor<<endl;
+        }
+
+        return tor;
+    }
+};
+```
