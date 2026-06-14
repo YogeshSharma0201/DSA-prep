@@ -23,3 +23,30 @@ vector<int> findDuplicates(vector<int>& nums) {
     return ret;
 }
 ```
+
+---
+
+## Solution 2 — Cyclic sort
+Place each number at index `nums[i] - 1` by swapping. After sorting, any position where `nums[index] ≠ index + 1` holds a duplicate (the number sitting there appears twice).
+
+```cpp
+vector<int> findDuplicates(vector<int>& nums) {
+    for (int i = 0; i < nums.size(); i++) {
+        while (nums[i] != nums[nums[i] - 1]) {
+            int correctIndex = nums[i] - 1;
+            int temp = nums[i];
+            nums[i] = nums[correctIndex];
+            nums[correctIndex] = temp;
+        }
+    }
+
+    vector<int> duplicates;
+    for (int index = 0; index < nums.size(); index++) {
+        if (nums[index] != index + 1) {
+            duplicates.push_back(nums[index]);
+        }
+    }
+
+    return duplicates;
+}
+```
