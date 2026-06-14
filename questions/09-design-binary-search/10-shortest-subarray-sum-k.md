@@ -9,23 +9,40 @@ Given an integer array (which may contain negative numbers) and an integer k, re
 Compute prefix sums. Use a monotonic deque of `(prefix, index)` pairs maintained in increasing order of prefix value. For each index i, pop from the front while `prefix[i] - deque.front().prefix >= k` to find valid subarrays and update the minimum length. Then pop from the back while `prefix[i] <= deque.back().prefix` to maintain the monotonic invariant, and push the current prefix.
 
 ## Code
+
+**Old `search()` (right-search template, right-biased mid):**
 ```cpp
 int search(vector<pair<long long,int>>& arr, long long num) {
     int lo = 0, hi = arr.size()-1;
     int mid;
 
     while(lo < hi) {
-        mid = (lo+hi+1)>>1;
+        mid = (lo+hi+1)>>1;          // right-biased mid to avoid infinite loop
 
         if(arr[mid].first <= num) {
-            lo = mid;
+            lo = mid;                 // right-search: lo tracks last valid position
         }
         else {
             hi = mid-1;
         }
     }
 
-    return arr[lo].first <= num ? lo : -1;
+    return arr[lo].first <= num ? lo : -1;  // validate lo before returning
+}
+```
+
+**New `search()` (left-search template, inverted condition, return `lo - 1`):**
+```cpp
+int search(vector<pair<long long,int>>& arr, long long num) {
+    // Goal: last index where arr[idx].first <= num
+    // Equivalent: first index where arr[idx].first > num, return lo - 1
+    int lo = 0, hi = arr.size();             // hi = size (past-the-end, always > num conceptually)
+    while (lo < hi) {
+        int mid = (lo + hi) >> 1;            // left-biased mid (standard left-search)
+        if (arr[mid].first > num) hi = mid;  // inverted condition: first false
+        else                      lo = mid + 1;
+    }
+    return lo - 1;  // lo-1 is last index where arr[idx].first <= num; -1 if none
 }
 
 int shortestSubarray(vector<int>& nums, int k) {
