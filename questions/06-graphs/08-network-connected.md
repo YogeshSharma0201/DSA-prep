@@ -9,6 +9,8 @@ Given n computers (0 to n-1) and a list of connections (cables), find the minimu
 Count the number of connected components using Union-Find or DFS, and count the number of redundant (extra) edges. To connect k components you need k-1 operations. If the number of extra edges is less than (components-1), return -1. Otherwise return (components-1).
 
 ## Code
+
+### Union-Find
 ```cpp
 class Solution {
     vector<int> parent, rnk;
@@ -42,6 +44,38 @@ public:
                 components--;
         }
 
+        return components - 1;
+    }
+};
+```
+
+### DFS
+Count connected components by running DFS from each unvisited node. Each DFS call visits an entire component, so the number of calls equals the number of components. Answer is `components - 1`.
+```cpp
+class Solution {
+private:
+    void dfs(vector<vector<int>>& adj, vector<bool>& visited, int src) {
+        visited[src] = true;
+        for(int i : adj[src])
+            if(!visited[i])
+                dfs(adj, visited, i);
+    }
+public:
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        if(connections.size() < n - 1)
+            return -1;
+        vector<vector<int>> adj(n);
+        for(auto v : connections) {
+            adj[v[0]].push_back(v[1]);
+            adj[v[1]].push_back(v[0]);
+        }
+        vector<bool> visited(n, false);
+        int components = 0;
+        for(int i = 0; i < n; i++)
+            if(!visited[i]) {
+                dfs(adj, visited, i);
+                components++;
+            }
         return components - 1;
     }
 };
