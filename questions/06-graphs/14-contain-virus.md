@@ -13,25 +13,20 @@ Simulate day by day using BFS. Each day: find all distinct virus regions via BFS
 class Solution {
     int dirs[4][2] = {{0,1},{0,-1},{1,0},{-1,0}};
 
-    // Returns walls needed and fills threatened set; marks region cells
+    // Returns walls needed and fills threatened set; marks region cells as -id
     int bfsRegion(vector<vector<int>>& grid, int si, int sj,
                   set<pair<int,int>>& threatened, int m, int n, int id) {
         int walls = 0;
         queue<pair<int,int>> q;
         q.push({si, sj});
-        grid[si][sj] = -id; // mark visited with negative id
+        grid[si][sj] = -id;
         while(!q.empty()) {
             auto [r, c] = q.front(); q.pop();
             for(auto& d : dirs) {
                 int nr = r+d[0], nc = c+d[1];
                 if(nr<0||nr>=m||nc<0||nc>=n) continue;
-                if(grid[nr][nc] == 1 && grid[nr][nc] != -id) {
-                    grid[nr][nc] = -id;
-                    q.push({nr,nc});
-                } else if(grid[nr][nc] == 0) {
-                    threatened.insert({nr,nc});
-                    walls++;
-                }
+                if(grid[nr][nc] == 1) { grid[nr][nc] = -id; q.push({nr,nc}); }
+                else if(grid[nr][nc] == 0) { threatened.insert({nr,nc}); walls++; }
             }
         }
         return walls;
@@ -39,66 +34,41 @@ class Solution {
 
 public:
     int containVirus(vector<vector<int>>& grid) {
-        int m = grid.size(), n = grid[0].size();
-        int totalWalls = 0;
+        int m = grid.size(), n = grid[0].size(), totalWalls = 0;
 
         while(true) {
-            // Reset region marks to 1
             for(auto& row : grid)
                 for(auto& cell : row)
                     if(cell < 0) cell = 1;
 
             vector<set<pair<int,int>>> regions;
             vector<int> wallCounts;
-            vector<pair<int,int>> starts;
-            int id = 1;
+            int maxIdx = 0, id = 1;
 
-            for(int i=0; i<m; i++) {
-                for(int j=0; j<n; j++) {
+            for(int i=0; i<m; i++)
+                for(int j=0; j<n; j++)
                     if(grid[i][j] == 1) {
                         set<pair<int,int>> threatened;
-                        int w = bfsRegion(grid, i, j, threatened, m, n, ++id);
-                        regions.push_back(threatened);
-                        wallCounts.push_back(w);
-                        starts.push_back({i,j});
+                        wallCounts.push_back(bfsRegion(grid, i, j, threatened, m, n, ++id));
+                        regions.push_back(move(threatened));
+                        if(regions.back().size() > regions[maxIdx].size()) maxIdx = regions.size()-1;
                     }
-                }
-            }
 
             if(regions.empty()) break;
 
-            // Find most threatening region
-            int maxIdx = 0;
-            for(int i=1; i<(int)regions.size(); i++)
-                if(regions[i].size() > regions[maxIdx].size())
-                    maxIdx = i;
-
             totalWalls += wallCounts[maxIdx];
 
-            // Quarantine: freeze that region (set to 2)
-            for(int i=0; i<m; i++)
-                for(int j=0; j<n; j++)
-                    if(grid[i][j] == -(maxIdx+2)) grid[i][j] = 2;
+            // Quarantine most threatening region (set to 2), restore others to 1
+            // Region k gets id k+2, so its cells are marked -(k+2)
+            for(auto& row : grid)
+                for(auto& cell : row)
+                    if(cell < 0) cell = (cell == -(maxIdx+2)) ? 2 : 1;
 
-            // Restore other regions and spread
-            for(int i=0; i<m; i++)
-                for(int j=0; j<n; j++)
-                    if(grid[i][j] < 0) grid[i][j] = 1;
-
-            // Spread non-quarantined viruses
+            // Spread non-quarantined viruses using already-computed threatened sets
             bool spread = false;
-            vector<pair<int,int>> toInfect;
-            for(int i=0; i<m; i++)
-                for(int j=0; j<n; j++)
-                    if(grid[i][j] == 1)
-                        for(auto& d : dirs) {
-                            int ni = i+d[0], nj = j+d[1];
-                            if(ni>=0&&ni<m&&nj>=0&&nj<n&&grid[ni][nj]==0) {
-                                toInfect.push_back({ni,nj});
-                                spread = true;
-                            }
-                        }
-            for(auto& [r,c] : toInfect) grid[r][c] = 1;
+            for(int i=0; i<(int)regions.size(); i++)
+                if(i != maxIdx)
+                    for(auto& [r,c] : regions[i]) { grid[r][c] = 1; spread = true; }
             if(!spread) break;
         }
         return totalWalls;
