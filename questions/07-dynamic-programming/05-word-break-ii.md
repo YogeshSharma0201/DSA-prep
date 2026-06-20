@@ -6,35 +6,35 @@
 Given a string s and a dictionary of words, return all possible sentences formed by inserting spaces into s such that each word is a valid dictionary word. Unlike Word Break I, you must return all valid segmentations, not just whether one exists.
 
 ## Solution
-DFS with memoization starting from each index. At each start position, try every word in the dictionary; if the word matches at the current position, recurse on the remainder of the string. Cache the list of sentences achievable from each start index using an unordered_map to avoid recomputation.
+Bottom-up DP where `dp[i]` holds all sentences buildable from `s[i..]`. Start from the end with `dp[n] = {""}`, then for each index scan all words: if the word matches at position `i`, append it (with a space) to each sentence in `dp[i + word.size()]` and store in `dp[i]`. Return `dp[0]`.
 
 ## Code
 ```cpp
 class Solution {
-    unordered_map<int, vector<string>> memo;
+public:
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        int strsize = s.size();
+        int n = wordDict.size();
 
-    vector<string> dfs(const string& s, const vector<string>& wordDict, int start) {
-        if (memo.count(start)) return memo[start];
-        vector<string> res;
-        if (start == (int)s.size()) {
-            res.push_back("");
-            return res;
-        }
-        for (const string& word : wordDict) {
-            int len = word.size();
-            if (start + len <= (int)s.size() && s.substr(start, len) == word) {
-                auto rest = dfs(s, wordDict, start + len);
-                for (const string& r : rest) {
-                    res.push_back(r.empty() ? word : word + " " + r);
+        vector<vector<string>> dp(strsize+1, vector<string>());
+
+        dp[strsize] = {""};
+
+        for(int i=strsize-1; i>=0; i--) {
+            for(int j=0; j<n; j++) {
+                if(strsize >= i+wordDict[j].size()) {
+                    if(s.substr(i, wordDict[j].size()) == wordDict[j]) {
+                        
+                        vector<string> res = dp[i+wordDict[j].size()];
+                        for(int k=0; k<res.size(); k++) {
+                            dp[i].push_back(res[k] == "" ? wordDict[j] : wordDict[j] + " " + res[k]);
+                        }
+                    }
                 }
             }
         }
-        return memo[start] = res;
-    }
 
-public:
-    vector<string> wordBreak(string s, vector<string>& wordDict) {
-        return dfs(s, wordDict, 0);
+        return dp[0];
     }
 };
 ```

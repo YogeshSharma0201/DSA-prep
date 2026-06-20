@@ -17,7 +17,7 @@ public:
 
         for(int i=s.size()-1; i >= 0; i--) {
             for(int j=0; j<wordDict.size(); j++) {
-                if(s.size()-i >= wordDict[j].size()) {
+                if(s.size() >= i + wordDict[j].size()) {
                     if(s.substr(i, wordDict[j].size()) == wordDict[j]) {
                         if(i + wordDict[j].size() == s.size()) {
                             dp[i] = true;
