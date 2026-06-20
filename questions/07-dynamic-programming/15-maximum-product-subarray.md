@@ -15,9 +15,6 @@ public:
     int maxProduct(vector<int>& nums) {
         int res = INT_MIN>>1;
         int n = nums.size();
-        for(int i=0; i<n; i++) {
-            res = max(nums[i], res);
-        }
 
         int currMax = 1, currMin = 1;
         for(int i=0; i<n; i++) {

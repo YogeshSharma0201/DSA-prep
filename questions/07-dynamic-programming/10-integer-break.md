@@ -23,3 +23,23 @@ int integerBreak(int n) {
     return product * n;
 }
 ```
+
+## DP Solution
+`dp[i]` = max product from breaking `i`. For each split `j` in `[1, i)`, either keep `j` as-is or use `dp[j]` (already broken further), same for `i-j`. Take the max across all splits.
+
+```cpp
+int integerBreak(int n) {
+    vector<int> dp(n+1, 0);
+
+    dp[0] = 0;
+    dp[1] = 1;
+
+    for(int i=2; i<=n; i++) {
+        for(int j=1; j<i; j++) {
+            dp[i] = max(dp[i], max(j,dp[j]) * max(i-j, dp[i-j]));
+        }
+    }
+
+    return dp[n];
+}
+```
