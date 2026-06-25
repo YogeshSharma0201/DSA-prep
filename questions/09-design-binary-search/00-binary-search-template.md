@@ -1,5 +1,7 @@
 # Binary Search Templates
 
+**Study Plan:** https://leetcode.com/studyplan/binary-search/
+
 All binary search problems reduce to one of two questions:
 - **"What is the first position where condition becomes true?"** → Left-search
 - **"What is the last position where condition is still true?"** → Invert condition, left-search, return `low - 1`
