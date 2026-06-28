@@ -6,21 +6,30 @@
 Given a sorted array of citation counts, find the largest h such that the researcher has at least h papers with >= h citations.
 
 ## Solution
-Binary search on the answer h in range `[0, n]`. For a candidate `mid`, use `lower_bound` to count papers with citations >= mid (`n - idx`). If that count >= mid, h is achievable so search higher; otherwise search lower. Answer is `l - 1`.
+Binary search directly on the index. For a candidate `mid`, compute `h = n - mid` (papers from mid onward). If `citations[mid] < h`, the papers at mid don't meet the h requirement, so move right. Otherwise converge left. After the loop, check if `citations[l] >= n - l`; if not, no valid h exists so return 0.
 
 ## Code
 ```cpp
-int hIndex(vector<int>& citations) {
-    int n = citations.size();
-    int l = 0, r = n + 1; // upper_bound search: right = max+1
+class Solution {
+public:
+    int hIndex(vector<int>& citations) {
+        int n = citations.size();
+        int l = 0, r = n-1;
 
-    while (l < r) {
-        int mid = (l + r) >> 1;
-        int idx = lower_bound(citations.begin(), citations.end(), mid) - citations.begin();
-        if (n - idx >= mid) l = mid + 1;
-        else r = mid;
+        while(l < r) {
+            int mid = (l+r) >> 1;
+
+            int h = n - mid;
+
+            if(citations[mid] < h) {
+                l = mid+1;
+            } 
+            else {
+                r = mid;
+            }
+        }
+
+        return citations[l] < n-l ? 0 : n-l;
     }
-
-    return max(0, l - 1);
-}
+};
 ```

@@ -35,3 +35,39 @@ public:
     }
 };
 ```
+
+## Alternate Solution (Backtracking + Bitmask Memoization)
+Track `currSum` and `currK` (buckets filled so far) explicitly via recursion. When `currSum == target`, start a new bucket. Memoize on `mask` alone — since `currSum` and `currK` are fully determined by `mask` at any given recursive path. Prune early if `currSum > target`.
+
+```cpp
+class Solution {
+    bool solve(vector<int>& nums, int mask, int currSum, int rSum, int currK, int k, vector<int>& dp) {
+        if(currSum > rSum) return false;
+
+        if(dp[mask] != -1) return dp[mask] == 1;
+
+        if(currSum == rSum) {
+            currK++;
+            currSum = 0;
+        }
+
+        if(currK == k) return true;
+
+        for(int i=0; i<nums.size(); i++) {
+            if(!(mask & (1<<i)) && solve(nums, mask | (1<<i), currSum + nums[i], rSum, currK, k, dp)) {
+                return dp[mask] = true;
+            }
+        }
+
+        return dp[mask] = false;
+    }
+
+public:
+    bool canPartitionKSubsets(vector<int>& nums, int k) {
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        if(sum%k) return false;
+        vector<int> dp(1<<nums.size(), -1);
+        return solve(nums, 0, 0, sum/k, 0, k, dp);
+    }
+};
+```
