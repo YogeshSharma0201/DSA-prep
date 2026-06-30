@@ -8,7 +8,7 @@ Given an array of citation counts (unsorted), find the largest h such that the r
 ## Solution
 Use a counting/bucket sort approach. Create an array `arr` of size `n+1` where `arr[i]` = number of papers with exactly i citations (capped at n). Then scan from n down to 0, accumulating suffix sums. The first index where `arr[i] >= i` is the answer.
 
-**Alternate solution:** Sort the array, then apply the same binary search as [H-Index II](24-h-index-ii.md) directly.
+**Alternate solution:** Sort the array, then apply the same binary search as [H-Index II](21-h-index-ii.md) directly.
 
 ## Code
 ```cpp
