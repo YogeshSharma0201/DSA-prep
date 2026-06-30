@@ -8,6 +8,8 @@ Design a data structure that follows the Least Recently Used (LRU) cache evictio
 ## Solution
 Combine a doubly linked list with an unordered map. The map stores key-to-node pointers for O(1) lookup. The list maintains usage order with most-recently-used at the front and LRU at the back. On every `get` or `put`, move the accessed node to the front. On overflow, remove the node at the back.
 
+**Note:** `lst.splice(lst.begin(), lst, mp[key])` detaches the node at `mp[key]` from its current position and reattaches it at the front — O(1) pure pointer relinking, no allocation or copying. The iterator `mp[key]` stays valid after splice (same node, new position), so the map never needs updating.
+
 ## Code
 ```cpp
 class LRUCache {

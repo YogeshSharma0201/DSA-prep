@@ -22,22 +22,18 @@ Output: [[1]]
 
 ## Solution
 
-### Direction Map + Boundary Check (O(n²) time, O(n²) space)
-
 Walk the matrix cell by cell, always moving in the current direction. When the next cell is out-of-bounds or already filled, turn clockwise using a direction map before moving.
 
 **Direction cycle:** right → down → left → up → right → ...
 Encoded as `(dx, dy)` pairs: `(0,1) → (1,0) → (0,-1) → (-1,0) → (0,1)`
 
-**Key insight:** The spiral naturally terminates because every cell eventually becomes "already filled" (`!= 0`), which both guards the main loop and triggers turns.
-
 **`tie(dx, dy) = dir[{dx, dy}]`** — `std::tie` is needed to assign into *existing* variables; structured bindings (`auto [a,b]`) only declare new ones.
 
 ## Code
 ```cpp
-class SpiralMatrix {
+class Solution {
 public:
-    vector<vector<int>> solve(int N) {
+    vector<vector<int>> generateMatrix(int N) {
         vector<vector<int>> res(N, vector<int>(N, 0));
         map<pair<int,int>, pair<int,int>> dir = {
             {{0,1},  {1,0}},
@@ -50,7 +46,7 @@ public:
         while (true) {
             res[ci][cj] = i++;
 
-            if (i > N * N) break;
+            if (i > N*N) break;
 
             int x = ci + dx;
             int y = cj + dy;

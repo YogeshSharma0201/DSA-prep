@@ -36,3 +36,37 @@ public:
     }
 };
 ```
+
+## Alternate Solution (Lazy Stack)
+Instead of flattening upfront, use a stack of `(list pointer, index)` pairs and evaluate lazily. `hasNext()` walks the stack until it finds an integer at the top — expanding nested lists as it goes. `next()` calls `hasNext()` to position correctly, then consumes the integer.
+
+```cpp
+class NestedIterator {
+    stack<pair<const vector<NestedInteger>*, int>> st;
+public:
+    NestedIterator(vector<NestedInteger> &nestedList) {
+        st.push({&nestedList, 0});
+    }
+
+    int next() {
+        hasNext();
+        auto& [list, i] = st.top();
+        return (*list)[i++].getInteger();
+    }
+
+    bool hasNext() {
+        while (!st.empty()) {
+            auto& [list, i] = st.top();
+            if (i == (int)list->size()) {
+                st.pop();
+            } else {
+                const NestedInteger& x = (*list)[i];
+                if (x.isInteger()) return true;
+                i++;
+                st.push({&x.getList(), 0});
+            }
+        }
+        return false;
+    }
+};
+```

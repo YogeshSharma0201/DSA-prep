@@ -6,37 +6,22 @@
 Given an n x n 2D matrix representing an image, rotate the image 90 degrees clockwise in-place. You must modify the input matrix directly without using another matrix.
 
 ## Solution
-Two steps: first add 1000 to all values to distinguish originals. Then read column by column from bottom to top to fill the rotated matrix row by row. Finally subtract 1000 back. Alternatively: transpose (swap matrix[i][j] with matrix[j][i]), then reverse each row.
+Transpose the matrix (swap `matrix[i][j]` with `matrix[j][i]` for `j > i`), then reverse each row. Together these produce a 90° clockwise rotation in-place.
 
 ## Code
 ```cpp
-void rotate(vector<vector<int>>& matrix) {
-    int n = matrix.size();
+class Solution {
+public:
+    void rotate(vector<vector<int>>& matrix) {
+        int row = matrix.size();
+        int col = matrix[0].size();
 
-    for(int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
-            matrix[i][j] += 1000;
-        }
+        for (int i = 0; i < row; i++)
+            for (int j = i+1; j < col; j++)
+                swap(matrix[i][j], matrix[j][i]);
+
+        for (int k = 0; k < row; k++)
+            reverse(matrix[k].begin(), matrix[k].end());
     }
-
-    int l = 0, r = 0;
-    for(int i=0; i<n; i++) {
-        for(int j=n-1; j>=0; j--) {
-            int tem = matrix[j][i] % 2000;
-            matrix[l][r++] += 2000 * (tem);
-            if(r == n) {
-                l++;
-                r = 0;
-            }
-        }
-    }
-
-    for(int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
-            matrix[i][j] = (matrix[i][j] / 2000) - 1000;
-        }
-    }
-
-    return;
-}
+};
 ```
