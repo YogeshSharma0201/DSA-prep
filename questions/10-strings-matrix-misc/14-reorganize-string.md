@@ -6,39 +6,52 @@
 Given a string s, rearrange the characters of s so that any two adjacent characters are not the same. Return any possible rearrangement, or return an empty string if not possible. If the maximum character frequency exceeds (n+1)/2, it is impossible.
 
 ## Solution
-Use a sorted set (acting as a max-heap by frequency) of (frequency, char) pairs. Each step, extract the highest and second-highest frequency characters, append both to the result, decrement their counts, and re-insert if still positive. Verify no two adjacent identical characters remain.
+Use a max-heap (priority queue) of (frequency, char) pairs. At each step, pop the most frequent character. If it would create a duplicate adjacent to the last placed character, instead pop the second most frequent, place it, re-insert the first, and continue. If no second choice exists, return empty.
 
 ## Code
 ```cpp
-string reorganizeString(string s) {
-    set<pair<int,char>> st;
-    map<char,int> mp;
-    for(auto i:s){
-        mp[i]++;
+class Solution {
+public:
+    string reorganizeString(string s) {
+        int n = s.size();
+
+        unordered_map<char, int> mp;
+        for(int i = 0; i < n; i++){
+            mp[s[i]]++;
+        }
+
+        priority_queue<pair<int, char>> pq;
+        for(auto [key, val] : mp){
+            pq.push({val, key});
+        }
+
+        string ans;
+        for(int i = 0; i < n; i++) {
+            auto [mx, val] = pq.top();
+            pq.pop();
+
+            if(i > 0 && ans.back() == val){
+                if(pq.empty()) return "";
+
+                auto [mx2, val2] = pq.top();
+                pq.pop();
+
+                ans += val2;
+
+                if(mx2 > 1)
+                    pq.push({mx2 - 1, val2});
+
+                pq.push({mx, val});
+            }
+            else{
+                ans += val;
+
+                if(mx > 1)
+                    pq.push({mx - 1, val});
+            }
+        }
+
+        return ans;
     }
-    for(auto i:mp){
-        st.insert({i.second,i.first});
-    }
-    string ans;
-    while(st.size()){
-        auto back=*(--st.end());
-        auto front=*(st.begin());
-        st.erase(back);
-        st.erase(front);
-        ans.push_back(back.second);
-        if(back.second!=front.second)
-            ans.push_back(front.second);
-        back.first--;
-        front.first--;
-        if(back.first>0)
-            st.insert(back);
-        if(front.first>0)
-            st.insert(front);
-    }
-    // check
-    for(int i=0;i<ans.size()-1;i++){
-        if(ans[i]==ans[i+1]) return "";
-    }
-    return ans;
-}
+};
 ```
