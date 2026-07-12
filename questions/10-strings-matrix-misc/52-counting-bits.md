@@ -26,3 +26,21 @@ vector<int> countBits(int n) {
     return dp;
 }
 ```
+
+## Alternative Solution (Simpler DP)
+Same recurrence as above, expressed directly with division and modulo instead of bit shift/mask: `t[i] = t[i/2] + i%2`, since `i/2` drops the least significant bit and `i%2` tells whether that dropped bit was set.
+
+```cpp
+class Solution {
+public:
+    vector<int> countBits(int n) {
+        vector<int> t(n+1);
+        t[0] = 0;
+
+        for(int i = 1; i<=n; ++i)
+            t[i] = t[i/2] + i%2;
+
+        return t;
+    }
+};
+```

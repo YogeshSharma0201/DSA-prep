@@ -8,6 +8,9 @@ Given a 2D integer array `matrix`, return the transpose of the matrix. The trans
 ## Solution
 Create a new matrix of size n x m (swapping dimensions). For each element (i, j) in the original matrix, place it at position (j, i) in the result. This is straightforward with a nested loop.
 
+> [!NOTE]
+> An **in-place** transpose (using `std::swap` to swap elements across the main diagonal) is only possible if the matrix is **square** ($N = M$). For rectangular matrices ($N \neq M$), transposing requires changing the dimensions of the grid structure, so allocating a new matrix is necessary.
+
 ## Code
 ```cpp
 vector<vector<int>> transpose(vector<vector<int>>& matrix) {
