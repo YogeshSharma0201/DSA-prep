@@ -25,7 +25,7 @@ int median(vector<vector<int>>& matrix, int r, int c) {
 ```
 
 ## Alternative Approach (Min-Heap)
-We can also solve this by finding the $k$-th smallest element in the matrix where $k = \frac{r \times c}{2} + 1$, similar to [Kth Smallest Element in a Sorted Matrix](file:///d:/Projects/DSA/questions/08-backtracking-heaps/11-kth-smallest-sorted-matrix.md).
+We can also solve this by finding the $k$-th smallest element in the matrix where $k = \frac{r \times c}{2} + 1$, similar to [Kth Smallest Element in a Sorted Matrix](file:///d:/Projects/DSA/questions/08-backtracking-heaps/heaps/11-kth-smallest-sorted-matrix.md).
 
 1. Initialize a min-heap of size $r$ with the first element of each row: `(matrix[i][0], i, 0)`.
 2. Pop the minimum element `(val, row, col)`, and push the next element in the same row `(matrix[row][col+1], row, col+1)` if it exists.
