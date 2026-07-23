@@ -8,6 +8,9 @@ Given arrival and departure times of all trains at a railway station, find the m
 ## Solution
 Sort arrivals and departures separately. Use two pointers: if the next arrival is before or at the next departure, a new platform is needed (increment count and advance arrival pointer); otherwise a train has left (decrement count and advance departure pointer). Track the maximum platforms needed at any point.
 
+> [!NOTE]
+> This problem is mathematically equivalent to [Attend All Meetings II](file:///d:/Projects/DSA/questions/10-strings-matrix-misc/intervals/25-attend-all-meetings-ii.md), with the key difference being the boundary condition: when a train arrives at the same time another departs, we need a new platform (`arr[i] <= dep[j]`), whereas in Meeting Rooms II, we can reuse the room (`start[i] >= end[endPtr]`).
+
 ## Code
 ```cpp
 int findMinPlatforms(vector<int>& arr, vector<int>& dep, int n) {
