@@ -12,7 +12,10 @@ Use Floyd's cycle detection: advance a slow pointer one step and a fast pointer 
 ```cpp
 ListNode *detectCycle(ListNode *head) {
     ListNode* slow = head, *fast = head;
-
+    
+    // For cycle detetion, always make sure to start both slow and fast at the same position
+    // Otherwise you will be able to detect the cycle but the distance of head to cycle start
+    // will not be equal to cycle start and first intersection of slow and fast
     while (fast && fast->next) {
         slow = slow->next;
         fast = fast->next->next;

@@ -10,19 +10,30 @@ Greedy: record the last occurrence index of each character. Scan left to right, 
 
 ## Code
 ```cpp
-vector<int> partitionLabels(string s) {
-    int last[26] = {};
-    for (int i = 0; i < (int)s.size(); i++) last[s[i]-'a'] = i;
+class Solution {
+public:
+    vector<int> partitionLabels(string s) {
+        int n = s.size();
+        vector<int> rM(26, -1);
 
-    vector<int> res;
-    int start = 0, end = 0;
-    for (int i = 0; i < (int)s.size(); i++) {
-        end = max(end, last[s[i]-'a']);
-        if (i == end) {
-            res.push_back(end - start + 1);
-            start = i + 1;
+        for(int i=s.size()-1; i>=0; i--) {
+            if(rM[s[i]-'a'] == -1) rM[s[i]-'a'] = i;
         }
+
+        int maxRight = -1;
+        int lastidx = 0;
+        vector<int> res;
+
+        for(int i=0;i<n;i++) {
+            maxRight = max(maxRight, rM[s[i]-'a']);
+            if(maxRight <= i) {
+                res.push_back(i+1 - lastidx);
+                lastidx = i+1;
+                maxRight = -1;
+            }
+        }
+
+        return res;
     }
-    return res;
-}
+};
 ```
