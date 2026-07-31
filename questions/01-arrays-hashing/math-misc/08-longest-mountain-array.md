@@ -23,6 +23,10 @@ int longestMountain(vector<int>& arr) {
             if (arr[i-1] != arr[i]) currS++;
         }
         else {
+            // 1. arr[i] is less than or equal to both neighbors (<=).
+            // 2. arr[i] is strictly less than at least one neighbor (<).
+            // it cannot be equal to both parents as this point should 
+            // either be start of the mountain or end of it
             if ((arr[i] <= arr[i-1] && arr[i] < arr[i+1])
              || (arr[i] < arr[i-1] && arr[i] <= arr[i+1])) {
                 if (peakCheck) maxS = max(currS + 1, maxS);
@@ -36,8 +40,10 @@ int longestMountain(vector<int>& arr) {
                 peakCheck = true;
             }
         }
-        if (peakCheck) maxS = max(currS, maxS);
     }
+
+    // For the mountain ending at last index
+    if (peakCheck) maxS = max(currS, maxS);
 
     return maxS;
 }
