@@ -6,14 +6,14 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **106** of **250** solved (42%)
+**Overall Completion:** **107** of **250** solved (43%)
 `[██████░░░░░░░░░]`
 
 ### Topic-wise Progress
 
 | Topic | Progress | Completion % | Solved | Total |
 | :--- | :--- | :--- | :--- | :--- |
-| **Arrays & Hashing** | `[█████████░░░░░░]` | 59% | 13 | 22 |
+| **Arrays & Hashing** | `[██████████░░░░░]` | 64% | 14 | 22 |
 | **Two Pointers** | `[███████░░░░░░░░]` | 46% | 6 | 13 |
 | **Sliding Window** | `[████████░░░░░░░]` | 56% | 5 | 9 |
 | **Stack** | `[████████░░░░░░░]` | 53% | 8 | 15 |
@@ -46,11 +46,11 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=KLlXCFG5TnA) | [Solution 📄](./questions/01-arrays-hashing/hashing/04-two-sum.md) |
 | `[x]` | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=0sWShKIJoo4) | [Solution 📄](./questions/10-strings-matrix-misc/strings/37-longest-common-prefix.md) |
 | `[x]` | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=vzdNOK2oB2E) | [Solution 📄](./questions/10-strings-matrix-misc/strings/35-group-anagrams.md) |
-| `[ ]` | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=Pcd1ii9P9ZI) | - |
+| `[x]` | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=Pcd1ii9P9ZI) | - |
 | `[x]` | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=7pnhv842keE) | [Solution 📄](./questions/01-arrays-hashing/basic/39-majority-element.md) |
-| `[ ]` | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=VymjPQUXjL8) | - |
+| `[x]` | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=VymjPQUXjL8) | [Solution 📄](./questions/09-design-binary-search/design/05-design-hashmap.md) |
 | `[x]` | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=cNWsgbKwwoU) | [Solution 📄](./questions/09-design-binary-search/design/05-design-hashmap.md) |
-| `[ ]` | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=MsYZSinhuFo) | - |
+| `[x]` | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=MsYZSinhuFo) | - |
 | `[x]` | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=4xbWSRZHqac) | [Solution 📄](./questions/01-arrays-hashing/basic/25-sort-colors.md) |
 | `[x]` | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=YPTqKIgVk-k) | [Solution 📄](./questions/08-backtracking-heaps/heaps/15-top-k-frequent-elements.md) |
 | `[ ]` | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=B1k_sxOSgv8) | - |

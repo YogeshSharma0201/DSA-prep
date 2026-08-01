@@ -41,20 +41,19 @@ Track `currSum` and `currK` (buckets filled so far) explicitly via recursion. Wh
 
 ```cpp
 class Solution {
-    bool solve(vector<int>& nums, int mask, int currSum, int rSum, int currK, int k, vector<int>& dp) {
-        if(currSum > rSum) return false;
+    bool solve(vector<int>& nums, int mask, int currSum, int rSum, vector<int>& dp) {
+        if((1<<nums.size())-1 == mask) return true;
 
-        if(dp[mask] != -1) return dp[mask] == 1;
-
-        if(currSum == rSum) {
-            currK++;
-            currSum = 0;
-        }
-
-        if(currK == k) return true;
+        if(dp[mask] != -1) return dp[mask];
 
         for(int i=0; i<nums.size(); i++) {
-            if(!(mask & (1<<i)) && solve(nums, mask | (1<<i), currSum + nums[i], rSum, currK, k, dp)) {
+            if(!(mask & (1<<i)) 
+                && currSum + nums[i] <= rSum
+                && solve(nums, 
+                        mask | (1<<i), 
+                        (currSum + nums[i])%rSum, // if equal to rSum then make it zero
+                        rSum, 
+                        dp)) {
                 return dp[mask] = true;
             }
         }
@@ -62,12 +61,11 @@ class Solution {
         return dp[mask] = false;
     }
 
-public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
         int sum = accumulate(nums.begin(), nums.end(), 0);
         if(sum%k) return false;
         vector<int> dp(1<<nums.size(), -1);
-        return solve(nums, 0, 0, sum/k, 0, k, dp);
+        return solve(nums, 0, 0, sum/k, dp);
     }
 };
 ```

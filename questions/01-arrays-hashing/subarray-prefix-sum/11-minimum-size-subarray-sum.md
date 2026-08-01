@@ -6,30 +6,23 @@
 Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a contiguous subarray whose sum is greater than or equal to `target`. If no such subarray exists, return `0`.
 
 ## Solution
-Use a sliding window with left pointer `l` and right pointer `r`. Expand the window by adding `nums[r++]` when the current sum is below target. When the sum meets or exceeds target, record the window length (`r - l`) as a candidate minimum, then shrink from the left by subtracting `nums[l++]`. Continue until either pointer goes out of bounds.
+Use a sliding window. Iterate through the array with a right pointer `i`, adding `nums[i]` to the running sum `csum`. While `csum` is greater than or equal to `target`, update the minimum length `minl` with the current window size `i - l + 1`, subtract `nums[l]` from `csum`, and increment the left pointer `l`.
 
 ## Code
 ```cpp
 int minSubArrayLen(int target, vector<int>& nums) {
-    int l = 0, r = 0;
-    int n = nums.size();
+    int l = 0, minl = INT_MAX, csum = 0;
 
-    int currS = 0;
-    int minl = INT_MAX;
-    while (true) {
-        if (currS >= target) {
-            minl = min(minl, r - l);
-            if (l >= n) break;
-            currS -= nums[l++];
-        }
-        else {
-            if (r >= n) break;
-            currS += nums[r++];
+    for (int i = 0; i < nums.size(); i++) {
+        csum += nums[i];
+
+        while (csum >= target) {
+            minl = min(minl, i - l + 1);
+            csum -= nums[l++];
         }
     }
 
-    if (minl == INT_MAX) minl = 0;
-
-    return minl;
+    return minl == INT_MAX ? 0 : minl;
 }
 ```
+

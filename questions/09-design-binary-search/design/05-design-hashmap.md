@@ -1,14 +1,66 @@
-# Design HashMap
+# Design HashSet & HashMap
+
+This file contains solutions for designing custom HashSet and HashMap structures without using built-in hash library templates, resolving collisions via chaining.
+
+---
+
+## Part 1: Design HashSet
+
+**Link:** https://leetcode.com/problems/design-hashset/
+
+### Problem
+Design a HashSet from scratch without using any built-in hash table libraries. Implement `add(key)`, `remove(key)`, and `contains(key)`. Keys are non-negative integers.
+
+### Solution
+Use an array of 1000 buckets where each bucket is a linked list of integers. The hash function is `key % 1000`. 
+- `add()` checks if the key is already present; if not, pushes it to the appropriate bucket list.
+- `remove()` removes the key from the bucket list if present.
+- `contains()` searches the bucket list to see if the key exists.
+
+### Code
+```cpp
+class MyHashSet {
+    static const int size = 1000;
+    vector<list<int>> hashset;
+
+public:
+    MyHashSet() : hashset(size) {}
+    
+    void add(int key) {
+        if (contains(key)) return;
+        hashset[key % size].push_back(key);
+    }
+    
+    void remove(int key) {
+        if (!contains(key)) return;
+        hashset[key % size].remove(key);
+    }
+    
+    bool contains(int key) {
+        for (auto &it : hashset[key % size]) {
+            if (it == key) return true;
+        }
+        return false;
+    }
+};
+```
+
+---
+
+## Part 2: Design HashMap
 
 **Link:** https://leetcode.com/problems/design-hashmap/
 
-## Problem
-Design a HashMap from scratch without using any built-in hash table libraries. Implement `put(key, value)`, `get(key)` (return -1 if absent), and `remove(key)`. Keys and values are non-negative integers.
+### Problem
+Design a HashMap from scratch without using any built-in hash table libraries. Implement `put(key, value)`, `get(key)` (returns -1 if absent), and `remove(key)`. Keys and values are non-negative integers.
 
-## Solution
-Use an array of 1000 buckets where each bucket is a linked list of `(key, value)` pairs (chaining for collision handling). The hash function is `key % 1000`. Each operation traverses the appropriate bucket list to find, insert, update, or remove the matching key.
+### Solution
+Use an array of 1000 buckets where each bucket is a linked list of `(key, value)` pairs. The hash function is `key % 1000`.
+- `put()` searches the bucket list. If the key exists, its value is updated; otherwise, a new pair is appended.
+- `get()` searches the bucket list and returns the value if the key is found, or -1 otherwise.
+- `remove()` removes the key-value pair matching the key from the bucket list.
 
-## Code
+### Code
 ```cpp
 class MyHashMap {
     static const int SIZE = 1000;
@@ -37,3 +89,4 @@ public:
     }
 };
 ```
+
