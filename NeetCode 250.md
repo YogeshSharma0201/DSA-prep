@@ -6,18 +6,18 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **107** of **250** solved (43%)
-`[██████░░░░░░░░░]`
+**Overall Completion:** **109** of **250** solved (44%)
+`[███████░░░░░░░░]`
 
 ### Topic-wise Progress
 
 | Topic | Progress | Completion % | Solved | Total |
 | :--- | :--- | :--- | :--- | :--- |
-| **Arrays & Hashing** | `[██████████░░░░░]` | 64% | 14 | 22 |
+| **Arrays & Hashing** | `[██████████░░░░░]` | 68% | 15 | 22 |
 | **Two Pointers** | `[███████░░░░░░░░]` | 46% | 6 | 13 |
 | **Sliding Window** | `[████████░░░░░░░]` | 56% | 5 | 9 |
 | **Stack** | `[████████░░░░░░░]` | 53% | 8 | 15 |
-| **Binary Search** | `[████░░░░░░░░░░░]` | 29% | 4 | 14 |
+| **Binary Search** | `[█████░░░░░░░░░░]` | 36% | 5 | 14 |
 | **Linked List** | `[████████░░░░░░░]` | 50% | 7 | 14 |
 | **Trees** | `[███░░░░░░░░░░░░]` | 22% | 5 | 23 |
 | **Heap / Priority Queue** | `[███░░░░░░░░░░░░]` | 17% | 2 | 12 |
@@ -46,21 +46,21 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=KLlXCFG5TnA) | [Solution 📄](./questions/01-arrays-hashing/hashing/04-two-sum.md) |
 | `[x]` | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=0sWShKIJoo4) | [Solution 📄](./questions/10-strings-matrix-misc/strings/37-longest-common-prefix.md) |
 | `[x]` | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=vzdNOK2oB2E) | [Solution 📄](./questions/10-strings-matrix-misc/strings/35-group-anagrams.md) |
-| `[x]` | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=Pcd1ii9P9ZI) | - |
+| `[ ]` | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=Pcd1ii9P9ZI) | - |
 | `[x]` | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=7pnhv842keE) | [Solution 📄](./questions/01-arrays-hashing/basic/39-majority-element.md) |
 | `[x]` | 705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=VymjPQUXjL8) | [Solution 📄](./questions/09-design-binary-search/design/05-design-hashmap.md) |
 | `[x]` | 706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=cNWsgbKwwoU) | [Solution 📄](./questions/09-design-binary-search/design/05-design-hashmap.md) |
-| `[x]` | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=MsYZSinhuFo) | - |
+| `[ ]` | 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=MsYZSinhuFo) | - |
 | `[x]` | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=4xbWSRZHqac) | [Solution 📄](./questions/01-arrays-hashing/basic/25-sort-colors.md) |
 | `[x]` | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=YPTqKIgVk-k) | [Solution 📄](./questions/08-backtracking-heaps/heaps/15-top-k-frequent-elements.md) |
-| `[ ]` | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=B1k_sxOSgv8) | - |
-| `[ ]` | 304 | [Range Sum Query 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=KE8MQuwE2yA) | - |
+| `[x]` | 271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=B1k_sxOSgv8) | [Solution 📄](./questions/01-arrays-hashing/hashing/22-string-encode-and-decode.md) |
+| `[x]` | 304 | [Range Sum Query 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=KE8MQuwE2yA) | [Solution 📄](./questions/01-arrays-hashing/subarray-prefix-sum/37-range-sum-query-2d-immutable.md) |
 | `[x]` | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=bNvIQI2wAjk) | [Solution 📄](./questions/01-arrays-hashing/hashing/21-product-of-array-except-self.md) |
 | `[x]` | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=TjFXEUCMqI8) | [Solution 📄](./questions/01-arrays-hashing/hashing/38-valid-sudoku.md) |
 | `[x]` | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=P6RZZMu_maU) | [Solution 📄](./questions/01-arrays-hashing/hashing/37-longest-consecutive-sequence.md) |
-| `[ ]` | 122 | [Best Time to Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=3SJ3pUkPQMc) | - |
-| `[ ]` | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=yDbkQd9A2q4) | - |
-| `[ ]` | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=fFVZt-6sgyo) | - |
+| `[x]` | 122 | [Best Time to Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=3SJ3pUkPQMc) | - |
+| `[x]` | 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=yDbkQd9A2q4) | [Solution 📄](./questions/01-arrays-hashing/basic/40-majority-element-ii.md) |
+| `[x]` | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=fFVZt-6sgyo) | [Solution 📄](./questions/01-arrays-hashing/subarray-prefix-sum/38-subarray-sum-equals-k.md) |
 | `[x]` | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=8g78yfzMlao) | [Solution 📄](./questions/01-arrays-hashing/math-misc/15-first-missing-positive.md) |
 
 ### Two Pointers
@@ -123,7 +123,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[ ]` | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=K-RYzDZkzCI) | - |
 | `[ ]` | 374 | [Guess Number Higher Or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=xW4QsTtaCa4) | - |
 | `[x]` | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=zdMhGxRWutQ) | [Solution 📄](./questions/09-design-binary-search/binary-search/16-sqrtx.md) |
-| `[ ]` | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Ber2pi2C0j0) | - |
+| `[x]` | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Ber2pi2C0j0) | [Solution 📄](./questions/09-design-binary-search/binary-search/09-search-2d-matrix.md) |
 | `[ ]` | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=U2SozAs9RzA) | - |
 | `[ ]` | 1011 | [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ER_oLmdc-nw) | - |
 | `[ ]` | 153 | [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nIVW4P8b1VA) | - |
