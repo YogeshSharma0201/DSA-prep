@@ -69,16 +69,16 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | `[ ]` | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=_d0T_2Lk2qA) | - |
 | `[x]` | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=jJXJ16kPFWg) | [Solution 📄](./questions/03-stack-queue/parsing-expression/08-valid-palindrome.md) |
-| `[ ]` | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=JrxRYBwG6EI) | - |
-| `[ ]` | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=LECWOvTo-Sc) | - |
-| `[ ]` | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=P1Ic85RarKY) | - |
+| `[x]` | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=JrxRYBwG6EI) | [Solution 📄](./questions/02-two-pointers-sliding-window/two-pointers/14-valid-palindrome-ii.md) |
+| `[x]` | 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=LECWOvTo-Sc) | - |
+| `[x]` | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=P1Ic85RarKY) | - |
 | `[ ]` | 26 | [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=DEJAZBq0FDA) | - |
-| `[ ]` | 167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cQ1Oz4ckceM) | - |
+| `[x]` | 167 | [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cQ1Oz4ckceM) | - |
 | `[x]` | 15 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=jzZsG8n2R9A) | [Solution 📄](./questions/01-arrays-hashing/hashing/07-3sum.md) |
 | `[x]` | 18 | [4Sum](https://leetcode.com/problems/4sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=EYeR-_1NRlQ) | [Solution 📄](./questions/01-arrays-hashing/hashing/34-4sum.md) |
 | `[x]` | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=BHr381Guz3Y) | [Solution 📄](./questions/01-arrays-hashing/basic/16-rotate-array.md) |
 | `[x]` | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=UuiTKBwPgAo) | [Solution 📄](./questions/01-arrays-hashing/math-misc/24-container-with-most-water.md) |
-| `[ ]` | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XbaxWuHIWUs) | - |
+| `[x]` | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XbaxWuHIWUs) | [Solution 📄](./questions/02-two-pointers-sliding-window/two-pointers/15-boats-to-save-people.md) |
 | `[x]` | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=ZI2z5pq0TqA) | [Solution 📄](./questions/01-arrays-hashing/math-misc/23-trapping-rain-water.md) |
 
 ### Sliding Window
