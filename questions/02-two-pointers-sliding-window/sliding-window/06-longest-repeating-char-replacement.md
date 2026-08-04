@@ -10,22 +10,26 @@ Use a sliding window tracking the frequency of each character and the max freque
 
 ## Code
 ```cpp
-int characterReplacement(string s, int k) {
-    int freq[26] = {};
-    int maxCount = 0, l = 0, result = 0;
+class Solution {
+public:
+    int characterReplacement(string s, int k) {
+        vector<int> freqs(26,0);
+        int res = 0, i = 0, maxFreq = 0;
 
-    for (int r = 0; r < s.size(); r++) {
-        freq[s[r] - 'A']++;
-        maxCount = max(maxCount, freq[s[r] - 'A']);
+        for (int j = 0; j < s.size(); j++) {
+            freqs[s[j]-'A']++;
+            maxFreq = max(maxFreq, freqs[s[j]-'A']);
 
-        while ((r - l + 1) - maxCount > k) {
-            freq[s[l] - 'A']--;
-            l++;
+            while ((j - i + 1) - maxFreq > k) {
+                freqs[s[i]-'A']--;
+                i++;
+            }
+
+            res = max(res, j - i + 1);
         }
 
-        result = max(result, r - l + 1);
+        return res;
     }
-
-    return result;
-}
+};
 ```
+

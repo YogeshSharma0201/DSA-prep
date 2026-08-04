@@ -107,9 +107,9 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=iu0082c4HDE) | [Solution 📄](./questions/03-stack-queue/parsing-expression/02-evaluate-reverse-polish-notation.md) |
 | `[x]` | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s9fokUqJ76A) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/16-generate-parentheses.md) |
 | `[x]` | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=LN7KjRszjk4) | [Solution 📄](./questions/03-stack-queue/misc/08-asteroid-collision.md) |
-| `[ ]` | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cTBiBSnjO3c) | - |
-| `[ ]` | 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=slYh0ZNEqSw) | - |
-| `[ ]` | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Pr6T-3yB9RM) | - |
+| `[x]` | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cTBiBSnjO3c) | - |
+| `[x]` | 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=slYh0ZNEqSw) | - |
+| `[x]` | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Pr6T-3yB9RM) | [Solution 📄](./questions/03-stack-queue/monotonic/25-car-fleet.md) |
 | `[x]` | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=qYlHrAKJfyA) | [Solution 📄](./questions/03-stack-queue/parsing-expression/06-simplify-path.md) |
 | `[x]` | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=qB0zZpBJlh8) | [Solution 📄](./questions/03-stack-queue/parsing-expression/11-decode-string.md) |
 | `[ ]` | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=Z6idIicFDOE) | - |
