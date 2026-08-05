@@ -6,18 +6,18 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **109** of **250** solved (44%)
-`[███████░░░░░░░░]`
+**Overall Completion:** **133** of **250** solved (53%)
+`[████████░░░░░░░]`
 
 ### Topic-wise Progress
 
 | Topic | Progress | Completion % | Solved | Total |
 | :--- | :--- | :--- | :--- | :--- |
-| **Arrays & Hashing** | `[██████████░░░░░]` | 68% | 15 | 22 |
-| **Two Pointers** | `[███████░░░░░░░░]` | 46% | 6 | 13 |
-| **Sliding Window** | `[████████░░░░░░░]` | 56% | 5 | 9 |
-| **Stack** | `[████████░░░░░░░]` | 53% | 8 | 15 |
-| **Binary Search** | `[█████░░░░░░░░░░]` | 36% | 5 | 14 |
+| **Arrays & Hashing** | `[█████████████░░]` | 86% | 19 | 22 |
+| **Two Pointers** | `[█████████████░░]` | 85% | 11 | 13 |
+| **Sliding Window** | `[█████████████░░]` | 89% | 8 | 9 |
+| **Stack** | `[██████████████░]` | 93% | 14 | 15 |
+| **Binary Search** | `[████████████░░░]` | 79% | 11 | 14 |
 | **Linked List** | `[████████░░░░░░░]` | 50% | 7 | 14 |
 | **Trees** | `[███░░░░░░░░░░░░]` | 22% | 5 | 23 |
 | **Heap / Priority Queue** | `[███░░░░░░░░░░░░]` | 17% | 2 | 12 |
@@ -112,8 +112,8 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Pr6T-3yB9RM) | [Solution 📄](./questions/03-stack-queue/monotonic/25-car-fleet.md) |
 | `[x]` | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=qYlHrAKJfyA) | [Solution 📄](./questions/03-stack-queue/parsing-expression/06-simplify-path.md) |
 | `[x]` | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=qB0zZpBJlh8) | [Solution 📄](./questions/03-stack-queue/parsing-expression/11-decode-string.md) |
-| `[ ]` | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=Z6idIicFDOE) | - |
-| `[ ]` | 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=zx5Sw9130L0) | - |
+| `[x]` | 895 | [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=Z6idIicFDOE) | [Solution 📄](./questions/03-stack-queue/design/23-maximum-frequency-stack.md) |
+| `[x]` | 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=zx5Sw9130L0) | [Solution 📄](./questions/03-stack-queue/monotonic/26-largest-rectangle-in-histogram.md) |
 
 ### Binary Search
 
@@ -124,15 +124,15 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[ ]` | 374 | [Guess Number Higher Or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=xW4QsTtaCa4) | - |
 | `[x]` | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=zdMhGxRWutQ) | [Solution 📄](./questions/09-design-binary-search/binary-search/16-sqrtx.md) |
 | `[x]` | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Ber2pi2C0j0) | [Solution 📄](./questions/09-design-binary-search/binary-search/09-search-2d-matrix.md) |
-| `[ ]` | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=U2SozAs9RzA) | - |
-| `[ ]` | 1011 | [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ER_oLmdc-nw) | - |
-| `[ ]` | 153 | [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nIVW4P8b1VA) | - |
+| `[x]` | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=U2SozAs9RzA) | [Solution 📄](./questions/09-design-binary-search/binary-search/30-koko-eating-bananas.md) |
+| `[x]` | 1011 | [Capacity to Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ER_oLmdc-nw) | [Solution 📄](./questions/09-design-binary-search/binary-search/19-capacity-ship-packages.md) |
+| `[x]` | 153 | [Find Minimum In Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nIVW4P8b1VA) | [Solution 📄](./questions/09-design-binary-search/binary-search/08-find-minimum-in-rotated-sorted-array.md) |
 | `[x]` | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=U8XENwh8Oy8) | [Solution 📄](./questions/09-design-binary-search/binary-search/11-search-in-rotated-sorted-array.md) |
-| `[ ]` | 81 | [Search In Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=oUnF7o88_Xc) | - |
+| `[x]` | 81 | [Search In Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=oUnF7o88_Xc) | [Solution 📄](./questions/09-design-binary-search/binary-search/31-search-in-rotated-sorted-array-ii.md) |
 | `[x]` | 981 | [Time Based Key Value Store](https://leetcode.com/problems/time-based-key-value-store/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=fu2cD_6E8Hw) | [Solution 📄](./questions/09-design-binary-search/design/09-time-based-key-value-store.md) |
 | `[x]` | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=YUF3_eBdzsk) | [Solution 📄](./questions/10-strings-matrix-misc/math-misc/61-split-array-largest-sum.md) |
-| `[ ]` | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=q6IEA26hvXc) | - |
-| `[ ]` | 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=s5RzL5Zc_3E) | - |
+| `[x]` | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=q6IEA26hvXc) | [Solution 📄](./questions/09-design-binary-search/binary-search/17-median-two-sorted-arrays.md) |
+| `[x]` | 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=s5RzL5Zc_3E) | [Solution 📄](./questions/09-design-binary-search/binary-search/32-find-in-mountain-array.md) |
 
 ### Linked List
 
