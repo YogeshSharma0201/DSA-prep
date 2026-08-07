@@ -141,17 +141,17 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[ ]` | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=G0_I-ZF0S38) | - |
 | `[x]` | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=XIdigk956u0) | [Solution 📄](./questions/04-linked-list/manipulation/03-merge-two-sorted-lists.md) |
 | `[ ]` | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=gBTe7lFR3vc) | - |
-| `[ ]` | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=S5bfdUTrKLM) | - |
+| `[x]` | 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=S5bfdUTrKLM) | [Solution 📄](./questions/04-linked-list/manipulation/13-reorder-list.md) |
 | `[x]` | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XVuQxVej6y8) | [Solution 📄](./questions/04-linked-list/manipulation/10-remove-nth-node-from-end-of-list.md) |
-| `[ ]` | 138 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5Y2EiZST97Y) | - |
+| `[x]` | 138 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5Y2EiZST97Y) | [Solution 📄](./questions/04-linked-list/manipulation/14-copy-list-with-random-pointer.md) |
 | `[x]` | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=wgFPrzTjm7s) | [Solution 📄](./questions/04-linked-list/manipulation/12-add-two-numbers.md) |
-| `[ ]` | 287 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=wjYnzkAhcNk) | - |
+| `[x]` | 287 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=wjYnzkAhcNk) | [Solution 📄](./questions/01-arrays-hashing/hashing/14-find-duplicate-number.md) |
 | `[x]` | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=RF_M9tX4Eag) | [Solution 📄](./questions/04-linked-list/manipulation/01-reverse-linked-list-ii.md) |
-| `[ ]` | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=aBbsfn863oA) | - |
+| `[x]` | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=aBbsfn863oA) | [Solution 📄](./questions/03-stack-queue/design/27-design-circular-queue.md) |
 | `[x]` | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=7ABFKPK2hD4) | [Solution 📄](./questions/09-design-binary-search/design/01-lru-cache.md) |
 | `[x]` | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=bLEIHn-DgoA) | [Solution 📄](./questions/09-design-binary-search/design/02-lfu-cache.md) |
 | `[x]` | 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=q5a5OiGbT6Q) | [Solution 📄](./questions/04-linked-list/manipulation/06-merge-k-sorted-lists.md) |
-| `[ ]` | 25 | [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=1UOPsfP85V4) | - |
+| `[x]` | 25 | [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=1UOPsfP85V4) | [Solution 📄](./questions/04-linked-list/manipulation/05-reverse-nodes-k-group.md) |
 
 ### Trees
 
@@ -161,19 +161,19 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[ ]` | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=afTpieEZXck) | - |
 | `[ ]` | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=QhszUQhGGlA) | - |
 | `[x]` | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=OnSn2XEQ4MY) | [Solution 📄](./questions/05-trees/dfs-paths/16-invert-binary-tree.md) |
-| `[ ]` | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=hTM3phVI6YQ) | - |
-| `[ ]` | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=bkxqA8Rfv04) | - |
+| `[x]` | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=hTM3phVI6YQ) | - |
+| `[x]` | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=bkxqA8Rfv04) | [Solution 📄](./questions/05-trees/dfs-paths/31-diameter-of-binary-tree.md) |
 | `[x]` | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=QfJsau0ItOY) | [Solution 📄](./questions/05-trees/dfs-paths/07-balanced-binary-tree.md) |
-| `[ ]` | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=vRbbcKXCxOw) | - |
+| `[x]` | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=vRbbcKXCxOw) | [Solution 📄](./questions/05-trees/dfs-paths/32-same-tree.md) |
 | `[x]` | 572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=E36O5SWp-LE) | [Solution 📄](./questions/05-trees/dfs-paths/04-subtree-of-another-tree.md) |
-| `[ ]` | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=gs2LMfuOR9k) | - |
-| `[ ]` | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Cpg8f79luEA) | - |
-| `[ ]` | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=LFzAoJJt92M) | - |
-| `[ ]` | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=6ZnyEApgFYg) | - |
-| `[ ]` | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=d4zLyf32e3I) | - |
-| `[ ]` | 427 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=UQ-1sBMV0v4) | - |
-| `[ ]` | 1448 | [Count Good Nodes In Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=7cp5imvDzl4) | - |
-| `[ ]` | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s6ATEkipzow) | - |
+| `[x]` | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=gs2LMfuOR9k) | [Solution 📄](./questions/05-trees/bst/01-lca-bst.md) |
+| `[x]` | 701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Cpg8f79luEA) | [Solution 📄](./questions/05-trees/bst/33-insert-into-bst.md) |
+| `[x]` | 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=LFzAoJJt92M) | [Solution 📄](./questions/05-trees/bst/34-delete-node-in-bst.md) |
+| `[x]` | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=6ZnyEApgFYg) | - |
+| `[x]` | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=d4zLyf32e3I) | - |
+| `[x]` | 427 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=UQ-1sBMV0v4) | [Solution 📄](./questions/05-trees/construction/35-construct-quad-tree.md) |
+| `[x]` | 1448 | [Count Good Nodes In Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=7cp5imvDzl4) | - |
+| `[x]` | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s6ATEkipzow) | [Solution 📄](./questions/05-trees/bst/14-validate-bst.md) |
 | `[ ]` | 230 | [Kth Smallest Element In a Bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5LUXSvjmGCw) | - |
 | `[ ]` | 105 | [Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ihj4IQGZ2zc) | - |
 | `[x]` | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nHR8ytpzz7c) | [Solution 📄](./questions/05-trees/dfs-paths/09-house-robber-iii.md) |
