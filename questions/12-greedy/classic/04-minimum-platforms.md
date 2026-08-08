@@ -17,8 +17,8 @@ int findMinPlatforms(vector<int>& arr, vector<int>& dep, int n) {
     sort(arr.begin(), arr.end());
     sort(dep.begin(), dep.end());
 
-    int platforms = 1, maxPlatforms = 1;
-    int i = 1, j = 0;
+    int platforms = 0, maxPlatforms = 1;
+    int i = 0, j = 0;
     while (i < n && j < n) {
         if (arr[i] <= dep[j]) {
             platforms++;

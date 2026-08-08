@@ -157,9 +157,9 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 | Saved | # | Question Link | Difficulty | YouTube Video | Local Solution |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| `[ ]` | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=g_S5WuasWUE) | - |
-| `[ ]` | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=afTpieEZXck) | - |
-| `[ ]` | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=QhszUQhGGlA) | - |
+| `[x]` | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=g_S5WuasWUE) | [Solution 📄](./questions/05-trees/traversal/38-inorder-traversal.md) |
+| `[x]` | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=afTpieEZXck) | [Solution 📄](./questions/05-trees/traversal/37-preorder-traversal.md) |
+| `[x]` | 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=QhszUQhGGlA) | [Solution 📄](./questions/05-trees/traversal/39-postorder-traversal.md) |
 | `[x]` | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=OnSn2XEQ4MY) | [Solution 📄](./questions/05-trees/dfs-paths/16-invert-binary-tree.md) |
 | `[x]` | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=hTM3phVI6YQ) | - |
 | `[x]` | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=bkxqA8Rfv04) | [Solution 📄](./questions/05-trees/dfs-paths/31-diameter-of-binary-tree.md) |
@@ -174,7 +174,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 427 | [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=UQ-1sBMV0v4) | [Solution 📄](./questions/05-trees/construction/35-construct-quad-tree.md) |
 | `[x]` | 1448 | [Count Good Nodes In Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=7cp5imvDzl4) | - |
 | `[x]` | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s6ATEkipzow) | [Solution 📄](./questions/05-trees/bst/14-validate-bst.md) |
-| `[ ]` | 230 | [Kth Smallest Element In a Bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5LUXSvjmGCw) | - |
+| `[x]` | 230 | [Kth Smallest Element In a Bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5LUXSvjmGCw) | [Solution 📄](./questions/05-trees/bst/36-kth-smallest-element-bst.md) |
 | `[ ]` | 105 | [Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ihj4IQGZ2zc) | - |
 | `[x]` | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nHR8ytpzz7c) | [Solution 📄](./questions/05-trees/dfs-paths/09-house-robber-iii.md) |
 | `[ ]` | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=S0y_61j8x20) | - |
