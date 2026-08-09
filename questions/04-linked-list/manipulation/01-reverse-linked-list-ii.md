@@ -12,42 +12,36 @@ Traverse to find `leftNode`, `prevLeftNode`, `rightNode`, and `afterRightNode`. 
 ```cpp
 class Solution {
 public:
+    ListNode* reverse(ListNode *head, int sz, ListNode* prev) {
+        while(head != NULL && sz-->0) {
+            ListNode* t = head->next;
+            head->next = prev;
+            prev = head;
+            head = t;
+        }
+        return prev;
+    }
+
     ListNode* reverseBetween(ListNode* head, int left, int right) {
-        ListNode* leftNode = head, *prevLeftNode = nullptr;
-        ListNode* rightNode = head, *afterRightNode = head->next;
-        ListNode* currNode = head;
-        int idx = 1;
-        while(currNode != nullptr) {
+        ListNode* dummy = new ListNode(0), *curr = dummy, *prevleft, *leftn, *rightn;
+        dummy->next = head;
+        int idx = 0;
+        while(curr != NULL) {
+            if(idx == right+1) {
+                rightn = curr;
+            }
             if(idx == left) {
-                leftNode = currNode;
+                leftn = curr;
             }
-            else if(idx < left) {
-                prevLeftNode = currNode;
+            if(idx == left-1) {
+                prevleft  = curr;
             }
-
-            if(idx == right) {
-                rightNode = currNode;
-                afterRightNode = currNode->next;
-            }
+            curr = curr->next;
             idx++;
-            currNode = currNode->next;
         }
 
-        currNode = leftNode;
-        ListNode* prePtr = afterRightNode;
-        while(currNode != afterRightNode) {
-            ListNode* nextNode = currNode->next;
-            currNode->next = prePtr;
-            prePtr = currNode;
-            currNode = nextNode;
-        }
-
-        if(prevLeftNode != nullptr) {
-            prevLeftNode->next = prePtr;
-        }
-
-        if(left == 1) return rightNode;
-        return head;
+        prevleft->next = reverse(leftn, right-left+1, rightn);
+        return dummy->next;
     }
 };
 ```
