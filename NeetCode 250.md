@@ -191,11 +191,11 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 215 | [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XEmy13g1Qxc) | [Solution 📄](./questions/08-backtracking-heaps/heaps/14-kth-largest-element.md) |
 | `[x]` | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s8p8ukTyA2I) | [Solution 📄](./questions/03-stack-queue/misc/07-task-scheduler.md) |
 | `[x]` | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=pNichitDD2E) | [Solution 📄](./questions/09-design-binary-search/design/10-design-twitter.md) |
-| `[ ]` | 1834 | [Single Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=RR1n-d4oYqE) | - |
+| `[x]` | 1834 | [Single Threaded CPU](https://leetcode.com/problems/single-threaded-cpu/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=RR1n-d4oYqE) | [Solution 📄](./questions/08-backtracking-heaps/heaps/20-single-threaded-cpu.md) |
 | `[x]` | 767 | [Reorganize String](https://leetcode.com/problems/reorganize-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=2g_b1aYTHeg) | [Solution 📄](./questions/10-strings-matrix-misc/strings/46-reorganize-string.md) |
-| `[ ]` | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=8u-H6O_XQKE) | - |
-| `[ ]` | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=08sn_w4LWEE) | - |
-| `[ ]` | 295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=itmhHWaHupI) | - |
+| `[x]` | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=8u-H6O_XQKE) | [Solution 📄](./questions/08-backtracking-heaps/heaps/21-longest-happy-string.md) |
+| `[x]` | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=08sn_w4LWEE) | [Solution 📄](./questions/08-backtracking-heaps/heaps/22-car-pooling.md) |
+| `[x]` | 295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=itmhHWaHupI) | [Solution 📄](./questions/08-backtracking-heaps/heaps/07-find-median-data-stream.md) |
 | `[ ]` | 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=1IUzNJ6TPEM) | - |
 
 ### Backtracking
