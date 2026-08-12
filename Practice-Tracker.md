@@ -232,11 +232,11 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 226 | [Permutations](./questions/08-backtracking-heaps/backtracking/02-permutations.md) ([LeetCode](https://leetcode.com/problems/permutations/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 227 | [Permutations II](./questions/08-backtracking-heaps/backtracking/03-permutations-ii.md) ([LeetCode](https://leetcode.com/problems/permutations-ii/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 228 | [24 Game](./questions/08-backtracking-heaps/backtracking/04-24-game.md) ([LeetCode](https://leetcode.com/problems/24-game/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
-| 229 | [Partition to K Equal Sum Subsets](./questions/08-backtracking-heaps/backtracking/05-partition-k-equal-sum.md) ([LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 229 | [Partition to K Equal Sum Subsets](./questions/08-backtracking-heaps/backtracking/05-partition-k-equal-sum.md) ([LeetCode](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)) | Backtracking & Heaps (Backtracking) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 230 | [Combination Sum II](./questions/08-backtracking-heaps/backtracking/06-combination-sum-ii.md) ([LeetCode](https://leetcode.com/problems/combination-sum-ii/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 231 | [Generate Parentheses](./questions/08-backtracking-heaps/backtracking/16-generate-parentheses.md) ([LeetCode](https://leetcode.com/problems/generate-parentheses/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 232 | [Palindrome Partitioning](./questions/08-backtracking-heaps/backtracking/17-palindrome-partitioning.md) ([LeetCode](https://leetcode.com/problems/palindrome-partitioning/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
-| 233 | [N-Queens II](./questions/08-backtracking-heaps/backtracking/18-n-queens-ii.md) ([LeetCode](https://leetcode.com/problems/n-queens-ii/)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 233 | [N-Queens & N-Queens II](./questions/08-backtracking-heaps/backtracking/18-n-queens-ii.md) ([LeetCode](https://leetcode.com/problems/n-queens/)) | Backtracking & Heaps (Backtracking) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 234 | [Rat in a Maze Problem - I](./questions/08-backtracking-heaps/backtracking/20-rat-in-a-maze.md) ([LeetCode](https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)) | Backtracking & Heaps (Backtracking) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 235 | [Find Median from Data Stream](./questions/08-backtracking-heaps/heaps/07-find-median-data-stream.md) ([LeetCode](https://leetcode.com/problems/find-median-from-data-stream)) | Backtracking & Heaps (Heaps) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 236 | [K-th Smallest Prime Fraction](./questions/08-backtracking-heaps/heaps/08-k-smallest-prime-fraction.md) ([LeetCode](https://leetcode.com/problems/k-th-smallest-prime-fraction/)) | Backtracking & Heaps (Heaps) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
@@ -374,3 +374,15 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 368 | [Furthest Building You Can Reach](./questions/12-greedy/optimization/15-furthest-building-you-can-reach.md) ([LeetCode](https://leetcode.com/problems/furthest-building-you-can-reach)) | Greedy (Optimization) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 369 | [Minimum Number of Bottles Visible](./questions/12-greedy/optimization/16-minimum-bottles-visible.md) ([LeetCode](https://www.geeksforgeeks.org/dsa/minimum-number-of-bottles-visible-when-a-bottle-can-be-enclosed-inside-another-bottle/)) | Greedy (Optimization) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 370 | [Most Profit Assigning Work](./questions/12-greedy/optimization/17-most-profit-assigning-work.md) ([LeetCode](https://leetcode.com/problems/most-profit-assigning-work/)) | Greedy (Optimization) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 371 | [IPO](./questions/08-backtracking-heaps/heaps/23-ipo.md) ([LeetCode](https://leetcode.com/problems/ipo/)) | Backtracking & Heaps (Heaps) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 372 | [Subsets](./questions/08-backtracking-heaps/backtracking/21-subsets.md) ([LeetCode](https://leetcode.com/problems/subsets/)) | Backtracking & Heaps (Backtracking) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 373 | [Subsets II](./questions/08-backtracking-heaps/backtracking/22-subsets-ii.md) ([LeetCode](https://leetcode.com/problems/subsets-ii/)) | Backtracking & Heaps (Backtracking) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 374 | [Letter Combinations of a Phone Number](./questions/08-backtracking-heaps/backtracking/23-letter-combinations-phone-number.md) ([LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)) | Backtracking & Heaps (Backtracking) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 375 | [Matchsticks to Square](./questions/08-backtracking-heaps/backtracking/24-matchsticks-to-square.md) ([LeetCode](https://leetcode.com/problems/matchsticks-to-square/)) | Backtracking & Heaps (Backtracking) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 376 | [Insert Interval](./questions/10-strings-matrix-misc/intervals/26-insert-interval.md) ([LeetCode](https://leetcode.com/problems/insert-interval/)) | Strings, Matrix & Misc (Intervals) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+
+
+
+
+
+

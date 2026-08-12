@@ -196,26 +196,26 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=8u-H6O_XQKE) | [Solution 📄](./questions/08-backtracking-heaps/heaps/21-longest-happy-string.md) |
 | `[x]` | 1094 | [Car Pooling](https://leetcode.com/problems/car-pooling/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=08sn_w4LWEE) | [Solution 📄](./questions/08-backtracking-heaps/heaps/22-car-pooling.md) |
 | `[x]` | 295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=itmhHWaHupI) | [Solution 📄](./questions/08-backtracking-heaps/heaps/07-find-median-data-stream.md) |
-| `[ ]` | 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=1IUzNJ6TPEM) | - |
+| `[x]` | 502 | [IPO](https://leetcode.com/problems/ipo/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=1IUzNJ6TPEM) | [Solution 📄](./questions/08-backtracking-heaps/heaps/23-ipo.md) |
 
 ### Backtracking
 
 | Saved | # | Question Link | Difficulty | YouTube Video | Local Solution |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| `[ ]` | 1863 | [Sum of All Subsets XOR Total](https://leetcode.com/problems/sum-of-all-subset-xor-totals) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=oX6g798QG3s) | - |
-| `[ ]` | 78 | [Subsets](https://leetcode.com/problems/subsets/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=REOH22Xwdkk) | - |
-| `[ ]` | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=GBKI9VSKdGg) | - |
+| `[x]` | 1863 | [Sum of All Subsets XOR Total](https://leetcode.com/problems/sum-of-all-subset-xor-totals) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=oX6g798QG3s) | - |
+| `[x]` | 78 | [Subsets](https://leetcode.com/problems/subsets/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=REOH22Xwdkk) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/21-subsets.md) |
+| `[x]` | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=GBKI9VSKdGg) | - |
 | `[x]` | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=rSA3t6BDDwg) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/06-combination-sum-ii.md) |
 | `[x]` | 77 | [Combinations](https://leetcode.com/problems/combinations/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=q0s6m7AiM7o) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/01-combinations.md) |
 | `[x]` | 46 | [Permutations](https://leetcode.com/problems/permutations/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s7AvT7cGdSo) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/02-permutations.md) |
-| `[ ]` | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Vn2v6ajA7U0) | - |
+| `[x]` | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Vn2v6ajA7U0) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/22-subsets-ii.md) |
 | `[x]` | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=qhBVWf0YafA) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/03-permutations-ii.md) |
 | `[x]` | 79 | [Word Search](https://leetcode.com/problems/word-search/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=pfiQ_PS1g8E) | [Solution 📄](./questions/10-strings-matrix-misc/matrix/08-word-search.md) |
 | `[x]` | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=3jvWodd7ht0) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/17-palindrome-partitioning.md) |
-| `[ ]` | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=0snEunUacZY) | - |
-| `[ ]` | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=hUe0cUKV-YY) | - |
-| `[ ]` | 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=mBk4I0X46oI) | - |
-| `[ ]` | 51 | [N Queens](https://leetcode.com/problems/n-queens/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=Ph95IHmRp5M) | - |
+| `[x]` | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=0snEunUacZY) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/23-letter-combinations-phone-number.md) |
+| `[x]` | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=hUe0cUKV-YY) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/24-matchsticks-to-square.md) |
+| `[x]` | 698 | [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=mBk4I0X46oI) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/05-partition-k-equal-sum.md) |
+| `[x]` | 51 | [N Queens](https://leetcode.com/problems/n-queens/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=Ph95IHmRp5M) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/18-n-queens-ii.md) |
 | `[x]` | 52 | [N Queens II](https://leetcode.com/problems/n-queens-ii/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=nalYyLZgvCY) | [Solution 📄](./questions/08-backtracking-heaps/backtracking/18-n-queens-ii.md) |
 | `[x]` | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=Fq2m2BqQG7Y) | [Solution 📄](./questions/07-dynamic-programming/string-dp/22-word-break-ii.md) |
 
@@ -326,7 +326,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 | Saved | # | Question Link | Difficulty | YouTube Video | Local Solution |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| `[ ]` | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=A8NUOmlwOlM) | - |
+| `[x]` | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=A8NUOmlwOlM) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/26-insert-interval.md) |
 | `[x]` | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=44H3cEC2fFM) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/22-merge-intervals.md) |
 | `[x]` | 435 | [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nONCGxWoUfM) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/23-non-overlapping-intervals.md) |
 | `[ ]` | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=PaJxqZVPhbg) | - |
