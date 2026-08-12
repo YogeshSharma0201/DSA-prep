@@ -6,8 +6,8 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **133** of **250** solved (53%)
-`[████████░░░░░░░]`
+**Overall Completion:** **175** of **250** solved (70%)
+`[███████████░░░░]`
 
 ### Topic-wise Progress
 
@@ -18,16 +18,16 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | **Sliding Window** | `[█████████████░░]` | 89% | 8 | 9 |
 | **Stack** | `[██████████████░]` | 93% | 14 | 15 |
 | **Binary Search** | `[████████████░░░]` | 79% | 11 | 14 |
-| **Linked List** | `[████████░░░░░░░]` | 50% | 7 | 14 |
-| **Trees** | `[███░░░░░░░░░░░░]` | 22% | 5 | 23 |
-| **Heap / Priority Queue** | `[███░░░░░░░░░░░░]` | 17% | 2 | 12 |
-| **Backtracking** | `[████████░░░░░░░]` | 50% | 8 | 16 |
+| **Linked List** | `[█████████████░░]` | 86% | 12 | 14 |
+| **Trees** | `[███████████████]` | 100% | 23 | 23 |
+| **Heap / Priority Queue** | `[███████████████]` | 100% | 12 | 12 |
+| **Backtracking** | `[███████████████]` | 100% | 16 | 16 |
 | **Graphs** | `[███████░░░░░░░░]` | 48% | 10 | 21 |
 | **Advanced Graphs** | `[██░░░░░░░░░░░░░]` | 10% | 1 | 10 |
 | **1-D Dynamic Programming** | `[██████████░░░░░]` | 65% | 11 | 17 |
 | **2-D Dynamic Programming** | `[████░░░░░░░░░░░]` | 25% | 4 | 16 |
 | **Greedy** | `[█████████░░░░░░]` | 57% | 8 | 14 |
-| **Intervals** | `[████░░░░░░░░░░░]` | 29% | 2 | 7 |
+| **Intervals** | `[██████░░░░░░░░░]` | 43% | 3 | 7 |
 | **Math & Geometry** | `[████████░░░░░░░]` | 54% | 7 | 13 |
 | **Bit Manipulation** | `[████████░░░░░░░]` | 50% | 5 | 10 |
 | **Tries** | `[░░░░░░░░░░░░░░░]` | 0% | 0 | 4 |
