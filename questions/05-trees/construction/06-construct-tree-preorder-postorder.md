@@ -1,39 +1,41 @@
 # Construct Binary Tree from Preorder and Postorder Traversal
 
-**Link:** https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal
+**Link:** [LeetCode 889](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 
 ## Problem
 Given two integer arrays `preorder` and `postorder` representing the preorder and postorder traversals of a binary tree, construct and return the binary tree. If multiple valid trees exist, return any of them.
 
 ## Solution
-Use a shared preorder index that advances as nodes are created. The first element of `preorder` is always the current root. Find where `preorder[index]` (left subtree root) appears in the `postorder` window to split left and right subtree bounds. Recurse on left half then right half using those bounds in postorder.
+The first element of `preorder` is always the root. If there are remaining elements, the next element (`preorder[prs + 1]`) is the root of the left subtree. Find this left root's index in the `postorder` traversal using a hash map. Everything up to this index in `postorder` belongs to the left subtree, and the rest belongs to the right subtree. Recurse with the calculated ranges.
 
 ## Code
 ```cpp
 class Solution {
+    unordered_map<int, int> postIdx;
 public:
-    TreeNode* constructFromPrePost(vector<int>& pre, vector<int>& post) {
-        int index = 0;
-        return construct(pre, post, index, 0, pre.size() - 1);
-    }
+    TreeNode* build(int prs, int pre, int pos, int poe, vector<int>& preorder) {
+        if (prs > pre || pos > poe) return nullptr;
 
-private:
-    TreeNode* construct(vector<int>& pre, vector<int>& post, int& index, int l, int h) {
-        if (index >= pre.size() || l > h)
-            return nullptr;
+        TreeNode* root = new TreeNode(preorder[prs]);
+        if (prs == pre) return root;
 
-        TreeNode* root = new TreeNode(pre[index++]);
-        if (l == h) return root;
+        int leftRootVal = preorder[prs + 1];
+        int idx = postIdx[leftRootVal];
+        int count = idx - pos + 1; // Number of elements in left subtree
 
-        int i = l;
-        while (i <= h && post[i] != pre[index]) i++;
-
-        if (i <= h) {
-            root->left  = construct(pre, post, index, l, i);
-            root->right = construct(pre, post, index, i + 1, h - 1);
-        }
+        root->left = build(prs + 1, prs + count, pos, idx, preorder);
+        root->right = build(prs + count + 1, pre, idx + 1, poe - 1, preorder);
 
         return root;
+    }
+
+    TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
+        int n = preorder.size();
+        for (int i = 0; i < n; i++) {
+            postIdx[postorder[i]] = i;
+        }
+
+        return build(0, n - 1, 0, n - 1, preorder);
     }
 };
 ```

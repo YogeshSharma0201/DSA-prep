@@ -329,9 +329,9 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=A8NUOmlwOlM) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/26-insert-interval.md) |
 | `[x]` | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=44H3cEC2fFM) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/22-merge-intervals.md) |
 | `[x]` | 435 | [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=nONCGxWoUfM) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/23-non-overlapping-intervals.md) |
-| `[ ]` | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=PaJxqZVPhbg) | - |
-| `[ ]` | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=FdzJmTCVyJU) | - |
-| `[ ]` | 2402 | [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=KLlXCFG5TnA) | - |
+| `[x]` | 252 | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=PaJxqZVPhbg) | - |
+| `[x]` | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=FdzJmTCVyJU) | Same as attend all meetings |
+| `[x]` | 2402 | [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=KLlXCFG5TnA) | [Solution 📄](./questions/10-strings-matrix-misc/intervals/27-meeting-rooms-iii.md) |
 | `[ ]` | 1851 | [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=5hQ5WWW5awQ) | - |
 
 ### Math & Geometry
