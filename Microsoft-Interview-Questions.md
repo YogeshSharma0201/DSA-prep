@@ -144,7 +144,7 @@
 - [ ] **[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)** · Medium · ⭐⭐⭐
 - [ ] **[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)** · Medium · ⭐⭐⭐
 - [ ] **[Recover a Tree from Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)** · Hard · ⭐⭐⭐
-- [ ] **[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)** · Hard · ⭐⭐
+- [x] **[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)** · Hard · ⭐⭐
 
 ---
 
