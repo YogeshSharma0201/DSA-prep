@@ -11,39 +11,73 @@ Handle three cases using Union-Find. First scan for a node with two parents (can
 ## Code
 ```cpp
 class Solution {
+    vector<int> parent, rank;
 public:
+    int find(int x) {
+        if(parent[x] != x) {
+            parent[x] = find(parent[x]);
+        }
+        return parent[x];
+    }
+
+    bool unite(int x, int y) {
+        int px = find(x), py = find(y);
+        if(px == py) return false;
+        if(rank[px] < rank[py]) swap(px, py);
+        parent[py] = px;
+        if(rank[px] == rank[py]) rank[px]++;
+        return true;
+    }
+
     vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
-        int n = edges.size();
-        vector<int> parent(n+1, 0), candA, candB;
-        // step 1, check whether there is a node with two parents
-        for (auto &edge : edges) {
-            if (parent[edge[1]] == 0)
+        /*
+        Case 1: two parents
+            1 -> 2 both 1 and 2 are parent of 3 but no cycle as the graph is directed (remove any)
+            1 -> 3
+            2 -> 3
+        Case 2 : cycle (remove any)
+            1 -> 2
+            2 -> 3
+            3 -> 1
+        Case 3: cycle with two parents (need to remove the edge from the cycle only)
+            1 -> 2
+            2 -> 3
+            3 -> 1
+            4 -> 2
+        */
+
+        int n = edges.size(); // tree with one extra edge so n == number of nodes
+        parent.resize(n+1, 0);
+        rank.resize(n+1, 0);
+
+        // assign parent and find candidate nodes with two parents if they exist
+        vector<int> candA, candB;
+        for(auto& edge : edges) {
+            if(parent[edge[1]] == 0) {
                 parent[edge[1]] = edge[0];
+            }
             else {
                 candA = {parent[edge[1]], edge[1]};
                 candB = edge;
-                edge[1] = 0;
+                edge[1] = 0; // set it zero to check if removing this removes the cycle
             }
         }
-        // step 2, union find
-        for (int i = 1; i <= n; i++) parent[i] = i;
-        for (auto &edge : edges) {
-            if (edge[1] == 0) continue;
-            int u = edge[0], v = edge[1], pu = root(parent, u);
-            // Now every node only has 1 parent, so root of v is implicitly v
-            if (pu == v) {
-                if (candA.empty()) return edge;
-                return candA;
+
+        // reset parent[i] = i to prevent infinite recursion during dsu
+        for(int i=1; i<=n; i++) parent[i] = i;
+
+        for(auto& edge : edges) {
+            if(edge[1] == 0) continue;
+            if(!unite(edge[0], edge[1])) {
+                // there is a cycle
+                // since we already removed candB earlier so if candA is set
+                // it must be removed
+                if(!candA.empty()) return candA;
+                return edge;
             }
-            parent[v] = pu;
         }
         return candB;
     }
-private:
-    int root(vector<int>& parent, int k) {
-        if (parent[k] != k)
-            parent[k] = root(parent, parent[k]);
-        return parent[k];
-    }
 };
 ```
+

@@ -11,9 +11,12 @@ Use Union-Find on emails. Map each email to an index, then union all emails in t
 ## Code
 ```cpp
 class Solution {
+    // unodered map as size of parent and rnk is not known before hand
     unordered_map<int,int> parent, rnk;
 
     int find(int x) {
+        // This line is extra from regular find method in DSU
+        // as we are using map with parent[i] = i not set
         if(!parent.count(x)) parent[x] = x;
         if(parent[x] != x) parent[x] = find(parent[x]);
         return parent[x];
