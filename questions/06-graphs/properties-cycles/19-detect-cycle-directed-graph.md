@@ -22,7 +22,13 @@ class Solution {
         return false;
     }
 public:
-    bool isCyclic(int V, vector<vector<int>>& adj) {
+    bool isCyclic(int V, vector<vector<int>>& edges) {
+        vector<vector<int>> adj(V);
+        
+        for(auto& edge: edges) {
+            adj[edge[0]].push_back(edge[1]);
+        }
+
         vector<bool> visited(V, false), recStack(V, false);
         for (int i = 0; i < V; i++)
             if (!visited[i] && dfs(i, adj, visited, recStack)) return true;

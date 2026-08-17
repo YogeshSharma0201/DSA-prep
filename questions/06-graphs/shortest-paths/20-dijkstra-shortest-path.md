@@ -16,6 +16,8 @@ vector<int> dijkstra(int V, vector<vector<pair<int,int>>>& adj, int src) {
     dist[src] = 0;
     pq.push({0, src});
     while (!pq.empty()) {
+        // Note - auto& [d,u] will cause problems here, it will point to top node hence it will start pointing to newly added
+        // nodes instead of original popped node, therefore don't use "&"
         auto [d, u] = pq.top(); pq.pop();
         if (d > dist[u]) continue;
         for (auto& [v, w] : adj[u]) {

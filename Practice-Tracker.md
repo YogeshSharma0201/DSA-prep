@@ -383,6 +383,8 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 377 | [Meeting Rooms III](./questions/10-strings-matrix-misc/intervals/27-meeting-rooms-iii.md) ([LeetCode](https://leetcode.com/problems/meeting-rooms-iii)) | Strings, Matrix & Misc (Intervals) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 378 | [Vertical Order Traversal of a Binary Tree](./questions/05-trees/traversal/40-vertical-order-traversal.md) ([LeetCode](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)) | Trees (Traversal) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 379 | [Top View of Binary Tree](./questions/05-trees/traversal/41-top-view-binary-tree.md) ([LeetCode](https://www.geeksforgeeks.org/problems/top-view-of-binary-tree/1)) | Trees (Traversal) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 380 | [Min Heap Implementation](./questions/08-backtracking-heaps/heaps/24-min-heap-implementation.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/min-heap-implementation/1)) | Backtracking & Heaps (Heaps) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 381 | [Heap Sort & Linear Heap Creation](./questions/08-backtracking-heaps/heaps/25-heap-sort.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/heap-sort/1)) | Backtracking & Heaps (Heaps) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 

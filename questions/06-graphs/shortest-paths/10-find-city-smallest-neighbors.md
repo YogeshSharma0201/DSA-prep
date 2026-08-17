@@ -22,18 +22,10 @@ int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
         dist[edges[i][0]][edges[i][1]] = dist[edges[i][1]][edges[i][0]] = edges[i][2];
     }
 
-    for(int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
-            for(int k=0; k<n; k++) {
-                if(dist[j][i] != inf && dist[i][j] != inf) {
-                    int mind = min(dist[j][k], dist[j][i] + dist[i][k]);
-
-                    if(mind < dist[j][k]) {
-                        dist[j][k] = mind;
-                    }
-                }
-            }
-        }
+    for(int k=0; k<n; k++)
+    for(int i=0; i<n; i++)
+    for(int j=0; j<n; j++) {
+        dist[i][j] = min(dist[i][k]+dist[k][j], dist[i][j]);
     }
 
     int ret = 0, minC = INT_MAX>>1;
