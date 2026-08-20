@@ -11,54 +11,47 @@ First, find a cell belonging to the first island and use DFS to mark all its cel
 ## Code
 ```cpp
 class Solution {
+    int dir[4][2] = {{0,1},{1,0},{-1,0},{0,-1}};
 public:
-    int dir[4][2] = {{1,0}, {-1,0}, {0,1}, {0,-1}};
-
     int shortestBridge(vector<vector<int>>& grid) {
-        int n = grid.size(), m = grid[0].size();
-
-        int x = -1, y = -1;
+        int x, y;
+        int n = grid.size();
+        
         for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
+            for(int j=0; j<n; j++) {
                 if(grid[i][j] == 1) {
                     x = i, y = j;
-                    grid[i][j] = -1;
+                    grid[i][j] = 0;
                 }
                 else {
-                    grid[i][j] = -1*(INT_MAX>>1);
+                    grid[i][j] = INT_MAX>>1;
                 }
             }
         }
 
-        priority_queue<pair<int,pair<int,int>>> q;
-        q.push({-1, {x,y}});
-        vector<vector<int>> isVis(n, vector<int>(m, false));
-
+        priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<>> pq;
+        vector<vector<bool>> isVis(n, vector<bool>(n, false));
+        pq.push({0, {x,y}});
         isVis[x][y] = true;
-        while(!q.empty()) {
-            pair<int,pair<int,int>> v = q.top();
-            q.pop();
 
-            int val = v.first;
-            x = v.second.first;
-            y = v.second.second;
+        while(!pq.empty()) {
+            auto [d, p] = pq.top(); pq.pop();
 
-            for(int i=0; i<4; i++) {
-                int dx = x + dir[i][0];
-                int dy = y + dir[i][1];
+            for(auto& di : dir) {
+                int dx = p.first+di[0];
+                int dy = p.second+di[1];
 
-                if(dx < 0 || dx >= n || dy < 0 || dy >= m) continue;
+                if(dx >= 0 && dx < n && dy >= 0 && dy < n && !isVis[dx][dy]) {
+                    if(grid[dx][dy] == 0 && grid[p.first][p.second]!=0) 
+                        return d;
 
-                if(!isVis[dx][dy]) {
                     isVis[dx][dy] = true;
-                    grid[dx][dy] = max(grid[dx][dy], val-1);
-                    if(val!=-1 && grid[dx][dy]==-1) return -1*val-1;
-                    q.push({grid[dx][dy], {dx, dy}});
+                    pq.push({min(grid[dx][dy], d+1), {dx, dy}});
                 }
             }
         }
 
-        return 0;
+        return -1;
     }
 };
 ```
