@@ -68,5 +68,5 @@ public:
 ---
 
 ## Complexity
-- **Time Complexity:** $\mathcal{O}(N \log N)$ where $N$ is the number of trips (due to sorting and heap operations).
-- **Space Complexity:** $\mathcal{O}(N)$ to store ongoing trips in the priority queue.
+- **Time Complexity:** O(N log N) where $N$ is the number of trips (due to sorting and heap operations).
+- **Space Complexity:** O(N) to store ongoing trips in the priority queue.

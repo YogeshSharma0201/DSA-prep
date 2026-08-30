@@ -11,7 +11,7 @@ Return `intervals` after the insertion.
 
 ---
 
-## Solution 1: Optimal Linear Scan — $\mathcal{O}(n)$ (Recommended)
+## Solution 1: Optimal Linear Scan — O(n) (Recommended)
 
 ### Approach (3-Phase Scan)
 Since `intervals` is already sorted, we can process all intervals in 3 sequential phases:
@@ -23,8 +23,8 @@ Since `intervals` is already sorted, we can process all intervals in 3 sequentia
 3. **Phase 3 (After Overlap):** Add all remaining intervals that start *after* `newInterval` ends.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(n)$ — Single linear pass over the intervals.
-- **Space Complexity:** $\mathcal{O}(n)$ — For storing the result.
+- **Time Complexity:** O(n) — Single linear pass over the intervals.
+- **Space Complexity:** O(n) — For storing the result.
 
 ### Code
 
@@ -68,7 +68,7 @@ public:
 
 ---
 
-## Solution 2: Insert, Sort & Merge — $\mathcal{O}(n \log n)$
+## Solution 2: Insert, Sort & Merge — O(n log n)
 
 > **Key Insight:** It is difficult to insert the new interval directly into its correct place because there are many edge cases to handle manually (e.g., overlapping multiple existing intervals, non-overlapping, strictly smaller than the first interval, strictly larger than the last interval, or spanning across the entire range).
 >
@@ -78,8 +78,8 @@ public:
 > 3. **Merge** overlapping intervals in a single pass (identical to the standard *Merge Intervals* algorithm).
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(n \log n)$ — Dominated by sorting $n + 1$ intervals.
-- **Space Complexity:** $\mathcal{O}(n)$ — For storing the merged output.
+- **Time Complexity:** O(n log n) — Dominated by sorting $n + 1$ intervals.
+- **Space Complexity:** O(n) — For storing the merged output.
 
 ### Code
 

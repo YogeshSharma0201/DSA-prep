@@ -22,8 +22,8 @@ Greedy approach using a Max-Heap (priority queue):
    - If not, we simply use a ladder for the current jump (`ladders--`).
 4. If we successfully loop through all buildings, return the last index (`heights.size() - 1`).
 
-Time Complexity: $O(N \log N)$ where $N$ is the number of buildings (each heap operation takes $O(\log N)$).
-Space Complexity: $O(N)$ for the priority queue.
+Time Complexity: O(N log N) where $N$ is the number of buildings (each heap operation takes O(log N)).
+Space Complexity: O(N) for the priority queue.
 
 ## Code
 ```cpp

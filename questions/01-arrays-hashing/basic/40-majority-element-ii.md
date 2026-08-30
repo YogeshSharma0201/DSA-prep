@@ -29,7 +29,7 @@ Output: [1,2]
 
 ## Explanation: Boyer-Moore Majority Vote Algorithm (for > n/3 elements)
 
-The standard Boyer-Moore Voting Algorithm is used to find a majority element that appears more than `⌊ n / 2 ⌋` times using $O(1)$ space. We can extend this algorithm to find all elements that appear more than `⌊ n / 3 ⌋` times.
+The standard Boyer-Moore Voting Algorithm is used to find a majority element that appears more than `⌊ n / 2 ⌋` times using O(1) space. We can extend this algorithm to find all elements that appear more than `⌊ n / 3 ⌋` times.
 
 ### 1. Mathematical Intuition
 - For any threshold $k$ where we want elements appearing $> \lfloor n/k \rfloor$ times, there can be at most $k - 1$ such elements.

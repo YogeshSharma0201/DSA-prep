@@ -12,19 +12,19 @@ Given an integer array and an integer k, return the k-th largest element in the 
 ### Why the Naive / Initial Approach Fails (TLE)
 The standard QuickSelect using **Lomuto Partitioning** with a deterministic pivot (`nums[hi]`) has two critical failure modes on LeetCode:
 
-1. **Deterministic Pivot Degradation ($O(n^2)$ on sorted data):**
-   - Picking a fixed pivot like `nums[hi]` causes worst-case $O(n^2)$ partitions on sorted or reverse-sorted inputs.
-   - **Fix (Modification 1 - Randomized Pivot):** Randomly pick an index in `[lo, hi]` to guarantee expected $O(n)$ average runtime on arbitrary ordering.
+1. **Deterministic Pivot Degradation (O(n^2) on sorted data):**
+   - Picking a fixed pivot like `nums[hi]` causes worst-case O(n^2) partitions on sorted or reverse-sorted inputs.
+   - **Fix (Modification 1 - Randomized Pivot):** Randomly pick an index in `[lo, hi]` to guarantee expected O(n) average runtime on arbitrary ordering.
 
 2. **The Duplicate Elements Trap (TLE on `[1, 1, ..., 1]`):**
    - Even with a randomized pivot, Lomuto partition checks `if (nums[i] >= pivot) swap(...)`.
-   - When all elements are identical, **every** element matches `>= pivot`. The partition boundary shifts by only $1$ each step ($N \to N-1 \to N-2 \dots$), resulting in $O(n^2)$ time and causing **Time Limit Exceeded (TLE)**.
-   - **Fix (Modification 2 - 3-Way / Dutch National Flag Partitioning):** Partition the array into 3 distinct regions: `> pivot`, `== pivot`, and `< pivot`. If the target index falls in the `== pivot` region, the algorithm returns in $O(1)$ immediately without further recursion.
+   - When all elements are identical, **every** element matches `>= pivot`. The partition boundary shifts by only $1$ each step ($N \to N-1 \to N-2 \dots$), resulting in O(n^2) time and causing **Time Limit Exceeded (TLE)**.
+   - **Fix (Modification 2 - 3-Way / Dutch National Flag Partitioning):** Partition the array into 3 distinct regions: `> pivot`, `== pivot`, and `< pivot`. If the target index falls in the `== pivot` region, the algorithm returns in O(1) immediately without further recursion.
 
 ---
 
 ## 1. Old / Initial Code (Standard Lomuto QuickSelect)
-> ⚠️ **Fails on LeetCode:** Gives TLE on duplicate-heavy and adversarial test cases ($O(n^2)$ worst case).
+> ⚠️ **Fails on LeetCode:** Gives TLE on duplicate-heavy and adversarial test cases (O(n^2) worst case).
 
 ```cpp
 class Solution {
@@ -56,7 +56,7 @@ public:
 ---
 
 ## 2. Latest Optimized Code (3-Way QuickSelect + Random Pivot)
-> ✅ **Accepted:** Handles sorted arrays and duplicate-heavy inputs in expected $O(n)$ time and $O(1)$ extra space.
+> ✅ **Accepted:** Handles sorted arrays and duplicate-heavy inputs in expected O(n) time and O(1) extra space.
 
 ```cpp
 class Solution {
@@ -110,7 +110,7 @@ public:
 
 | Metric | Old Approach (Lomuto) | Latest Approach (3-Way + Random) |
 | :--- | :--- | :--- |
-| **Average Time** | $O(n)$ | $O(n)$ |
-| **Worst-case Time (Duplicates)** | $O(n^2)$ ❌ (TLE) | $O(n)$ ✅ |
-| **Worst-case Time (Adversarial)** | $O(n^2)$ ❌ (TLE) | $O(n)$ Expected ✅ |
-| **Space Complexity** | $O(n)$ recursion stack | $O(\log n)$ recursion stack |
+| **Average Time** | O(n) | O(n) |
+| **Worst-case Time (Duplicates)** | O(n^2) ❌ (TLE) | O(n) ✅ |
+| **Worst-case Time (Adversarial)** | O(n^2) ❌ (TLE) | O(n) Expected ✅ |
+| **Space Complexity** | O(n) recursion stack | O(log n) recursion stack |

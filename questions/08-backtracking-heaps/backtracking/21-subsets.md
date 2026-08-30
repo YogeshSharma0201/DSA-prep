@@ -18,8 +18,8 @@ The solution set must not contain duplicate subsets. Return the solution in any 
 - When `idx == nums.size()`, we have made a decision for every element, so we append the current `path` to the result list `res`.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(n \cdot 2^n)$ — There are $2^n$ subsets and each subset can take up to $\mathcal{O}(n)$ time to copy.
-- **Space Complexity:** $\mathcal{O}(n)$ — For the recursion call stack and `path` array (excluding the returned result array).
+- **Time Complexity:** O(n * 2^n) — There are $2^n$ subsets and each subset can take up to O(n) time to copy.
+- **Space Complexity:** O(n) — For the recursion call stack and `path` array (excluding the returned result array).
 
 ---
 

@@ -6,7 +6,7 @@
 Given an array having both positive and negative integers. The task is to compute the length of the largest subarray with sum equal to 0.
 
 ## Solution
-We can solve this problem in $O(N)$ time and $O(N)$ space using prefix sum and hashing.
+We can solve this problem in O(N) time and O(N) space using prefix sum and hashing.
 As we traverse the array, we keep track of the running prefix sum. If the same prefix sum has been seen before at some index `j`, it means the sum of the elements between `j + 1` and the current index `i` is 0.
 To find the **largest** subarray, we should store only the *first* occurrence of each prefix sum in a hash map.
 

@@ -229,31 +229,31 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=pV2kpPD66nE) | [Solution 📄](./questions/06-graphs/traversal-search/01-number-of-islands.md) |
 | `[x]` | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=iJGr1OtmH0c) | [Solution 📄](./questions/10-strings-matrix-misc/matrix/10-max-area-of-island.md) |
 | `[x]` | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=mQeF6bN8hMk) | [Solution 📄](./questions/06-graphs/traversal-search/16-clone-graph.md) |
-| `[ ]` | 286 | [Walls And Gates](https://leetcode.com/problems/walls-and-gates/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=e69C6xhiSQE) | - |
-| `[ ]` | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=y704fEOx0s0) | - |
+| `[x]` | 286 | [Walls And Gates](https://leetcode.com/problems/walls-and-gates/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=e69C6xhiSQE) | [Solution 📄](./questions/06-graphs/traversal-search/31-islands-and-treasure.md) |
+| `[x]` | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=y704fEOx0s0) | Similar to Walls and gates, BFS with all rotten oranges as starting points |
 | `[x]` | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=s-VkcjHqkGI) | [Solution 📄](./questions/06-graphs/traversal-search/18-pacific-atlantic-water-flow.md) |
 | `[x]` | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=9z2BunfoZ5Y) | [Solution 📄](./questions/10-strings-matrix-misc/matrix/09-surrounded-regions.md) |
-| `[ ]` | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Pzg3bCDY87w) | - |
+| `[x]` | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Pzg3bCDY87w) | [Solution 📄](./questions/06-graphs/traversal-search/32-open-the-lock.md) |
 | `[x]` | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=EgI5nU9etnU) | [Solution 📄](./questions/06-graphs/mst-topo/17-course-schedule.md) |
 | `[x]` | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Akt3glAwyfY) | [Solution 📄](./questions/06-graphs/mst-topo/04-course-schedule-ii.md) |
-| `[ ]` | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=bXsUuownnoQ) | - |
-| `[ ]` | 1462 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cEW05ofxhn0) | - |
-| `[ ]` | 323 | [Number of Connected Components In An Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=8f1XPm4WOUc) | - |
+| `[x]` | 261 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=bXsUuownnoQ) | Cycle detection undirected graph |
+| `[x]` | 1462 | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cEW05ofxhn0) | [Solution 📄](./questions/06-graphs/mst-topo/28-course-schedule-iv.md) |
+| `[x]` | 323 | [Number of Connected Components In An Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=8f1XPm4WOUc) | - |
 | `[x]` | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=FXWRE67PLL0) | [Solution 📄](./questions/06-graphs/dsu-connectivity/06-redundant-connection.md) |
 | `[x]` | 721 | [Accounts Merge](https://leetcode.com/problems/accounts-merge/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=6st4IxEF-90) | [Solution 📄](./questions/06-graphs/dsu-connectivity/09-accounts-merge.md) |
 | `[x]` | 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Uei1fwDoyKk) | [Solution 📄](./questions/06-graphs/traversal-search/29-evaluate-division.md) |
-| `[ ]` | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=OnSn2XEQ4MY) | - |
-| `[ ]` | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=h9iTnkgv05E) | - |
+| `[x]` | 310 | [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=OnSn2XEQ4MY) | [Solution 📄](./questions/06-graphs/mst-topo/29-minimum-height-trees.md) |
+| `[x]` | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=h9iTnkgv05E) | [Solution 📄](./questions/06-graphs/traversal-search/33-word-ladder.md) |
 
 ### Advanced Graphs
 
 | Saved | # | Question Link | Difficulty | YouTube Video | Local Solution |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| `[ ]` | 1631 | [Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XQlxCCx2vI4) | - |
+| `[x]` | 1631 | [Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XQlxCCx2vI4) | [Solution 📄](./questions/06-graphs/shortest-paths/23-path-with-minimum-effort.md) |
 | `[x]` | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=EaphyqKU4PQ) | [Solution 📄](./questions/06-graphs/shortest-paths/22-network-delay-time.md) |
-| `[ ]` | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=ZyB_gQ8vqGA) | - |
-| `[ ]` | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=f7JOBJIC-NA) | - |
-| `[ ]` | 778 | [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=amvrKlMLuGY) | - |
+| `[x]` | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=ZyB_gQ8vqGA) | [Solution 📄](./questions/06-graphs/traversal-search/34-reconstruct-itinerary.md) |
+| `[x]` | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=f7JOBJIC-NA) | [Solution 📄](./questions/06-graphs/mst-topo/30-min-cost-to-connect-all-points.md) |
+| `[x]` | 778 | [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=amvrKlMLuGY) | [Solution 📄](./questions/09-design-binary-search/binary-search/27-swim-rising-water.md) |
 | `[ ]` | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=6kTZYvNNyps) | - |
 | `[ ]` | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5eIK3zUdYmE) | - |
 | `[ ]` | 1489 | [Find Critical and Pseudo Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=83JnUxrLKJU) | - |

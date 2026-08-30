@@ -138,7 +138,7 @@
 - [ ] **[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)** · Easy · ⭐⭐⭐ · [GFG](https://www.geeksforgeeks.org/problems/symmetric-tree/1)
 - [ ] **[Path Sum II](https://leetcode.com/problems/path-sum-ii/)** · Medium · ⭐⭐⭐
 - [ ] **[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)** · Hard · ⭐⭐⭐
-- [ ] **[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)** · Medium · ⭐⭐⭐
+- [x] **[Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)** · Medium · ⭐⭐⭐
 - [ ] **[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)** · Medium · ⭐⭐⭐
 - [ ] **[House Robber III](https://leetcode.com/problems/house-robber-iii/)** · Medium · ⭐⭐⭐
 - [ ] **[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)** · Medium · ⭐⭐⭐
@@ -161,10 +161,10 @@
   > *Follow-up: Find all words from a list on the board — Word Search II (LC #212, uses Trie)*
 - [ ] **[Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)** · Medium · ⭐⭐⭐⭐ · [GFG](https://www.geeksforgeeks.org/problems/rotten-oranges2536/1)
 - [ ] **[Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)** · Medium · ⭐⭐⭐
-- [ ] **[Word Ladder](https://leetcode.com/problems/word-ladder/)** · Hard · ⭐⭐⭐
+- [x] **[Word Ladder](https://leetcode.com/problems/word-ladder/)** · Hard · ⭐⭐⭐
 - [ ] **[Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)** · Medium · ⭐⭐⭐
 - [ ] **[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)** · Medium · ⭐⭐⭐
-- [ ] **[Open the Lock](https://leetcode.com/problems/open-the-lock/)** · Medium · ⭐⭐⭐
+- [x] **[Open the Lock](https://leetcode.com/problems/open-the-lock/)** · Medium · ⭐⭐⭐
 - [ ] **[Shortest Path in Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)** · Hard · ⭐⭐⭐
 
 *SDE2+ specific:*

@@ -5,7 +5,7 @@
 ## Problem
 Suppose an array of length `n` sorted in ascending order is rotated between `1` and `n` times. Given the sorted rotated array `nums` of **unique** elements, return the minimum element of this array.
 
-Must run in $O(\log n)$ time.
+Must run in O(log n) time.
 
 ## Solution
 We can use binary search to find the minimum element (the rotation point/pivot):

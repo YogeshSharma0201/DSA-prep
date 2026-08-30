@@ -11,7 +11,7 @@ Implement the `NumMatrix` class:
 - `NumMatrix(int[][] matrix)` Initializes the object with the integer matrix `matrix`.
 - `int sumRegion(int row1, int col1, int row2, int col2)` Returns the sum of the elements of `matrix` inside the rectangle defined by its upper left corner `(row1, col1)` and lower right corner `(row2, col2)`.
 
-You must design an algorithm where `sumRegion` works on $O(1)$ time complexity.
+You must design an algorithm where `sumRegion` works on O(1) time complexity.
 
 **Example 1:**
 ```
@@ -39,7 +39,7 @@ numMatrix.sumRegion(1, 2, 2, 4); // return 12 (blue rectangle)
 
 ## Solution
 
-To query any region in $O(1)$ time, we precompute a 2D prefix sum of the matrix during initialization.
+To query any region in O(1) time, we precompute a 2D prefix sum of the matrix during initialization.
 
 ### Core Idea: 2D Prefix Sum (Inclusion-Exclusion Principle)
 
@@ -67,9 +67,9 @@ $$\text{Sum} = \text{Matrix}[row2][col2] - \text{Matrix}[row1-1][col2] - \text{M
 
 ### Complexity Analysis
 - **Time Complexity:**
-  - **Constructor:** $O(m \times n)$ to compute the prefix sums.
-  - **`sumRegion`:** $O(1)$ since it only involves constant basic arithmetic operations.
-- **Space Complexity:** $O(1)$ auxiliary space if we modify the input matrix in-place.
+  - **Constructor:** O(m * n) to compute the prefix sums.
+  - **`sumRegion`:** O(1) since it only involves constant basic arithmetic operations.
+- **Space Complexity:** O(1) auxiliary space if we modify the input matrix in-place.
 
 ## Code
 

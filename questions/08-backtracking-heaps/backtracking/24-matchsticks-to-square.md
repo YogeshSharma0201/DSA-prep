@@ -28,8 +28,8 @@ Return `true` if you can make this square and `false` otherwise.
    - If all matchsticks are used (`mask == (1 << n) - 1`), return `true`.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(n \cdot 2^n)$ — There are $2^n$ unique bitmask states and from each state we try up to $n$ transitions.
-- **Space Complexity:** $\mathcal{O}(2^n)$ — Memoization table `dp` of size $2^n$ plus recursion stack $\mathcal{O}(n)$.
+- **Time Complexity:** O(n * 2^n) — There are $2^n$ unique bitmask states and from each state we try up to $n$ transitions.
+- **Space Complexity:** O(2^n) — Memoization table `dp` of size $2^n$ plus recursion stack O(n).
 
 ---
 

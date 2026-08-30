@@ -9,13 +9,13 @@ Given an array of strings `strs`, group the anagrams together. An anagram is a w
 
 ### Approach 1: Standard Sorting
 For each string, sort its characters to get a canonical key. Use a hash map from sorted string to list of original strings. Group all strings with the same key. Return the values of the map.
-- **Time Complexity:** $O(N \cdot K \log K)$ where $N$ is the number of strings and $K$ is the maximum length of a string.
-- **Space Complexity:** $O(N \cdot K)$ to store the groups in the hash map.
+- **Time Complexity:** O(N * K log K) where $N$ is the number of strings and $K$ is the maximum length of a string.
+- **Space Complexity:** O(N * K) to store the groups in the hash map.
 
 ### Approach 2: Counting Sort
-Instead of using standard sorting which takes $O(K \log K)$ per string, we can use counting sort (frequency map of 26 characters) since strings only contain lowercase English letters. This reduces sorting to $O(K)$ per string.
-- **Time Complexity:** $O(N \cdot K)$ where $N$ is the number of strings and $K$ is the maximum length of a string.
-- **Space Complexity:** $O(N \cdot K)$
+Instead of using standard sorting which takes O(K log K) per string, we can use counting sort (frequency map of 26 characters) since strings only contain lowercase English letters. This reduces sorting to O(K) per string.
+- **Time Complexity:** O(N * K) where $N$ is the number of strings and $K$ is the maximum length of a string.
+- **Space Complexity:** O(N * K)
 
 ## Code
 

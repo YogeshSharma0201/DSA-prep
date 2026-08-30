@@ -31,7 +31,7 @@ Output: false
 
 ## Solution
 
-The problem can be solved in $O(N)$ time complexity using a **two-pointer** approach.
+The problem can be solved in O(N) time complexity using a **two-pointer** approach.
 
 ### Core Idea
 
@@ -57,8 +57,8 @@ The provided solution implements this approach recursively by keeping track of a
 ---
 
 ### Complexity Analysis
-- **Time Complexity:** $O(N)$ — In the worst case, we traverse the string once. When a mismatch is found, we check two substrings of length $N$, which takes $O(N)$ time.
-- **Space Complexity:** $O(N)$ due to recursion stack space in the worst case (can be optimized to $O(1)$ auxiliary space with an iterative approach).
+- **Time Complexity:** O(N) — In the worst case, we traverse the string once. When a mismatch is found, we check two substrings of length $N$, which takes O(N) time.
+- **Space Complexity:** O(N) due to recursion stack space in the worst case (can be optimized to O(1) auxiliary space with an iterative approach).
 
 ## Code
 

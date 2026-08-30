@@ -13,8 +13,8 @@ An in-order traversal of a BST visits nodes in strictly ascending order. When tw
 After the in-order traversal finishes, we swap the values of `firstEle` and `secondEle`.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(N)$ where $N$ is the number of nodes in the tree.
-- **Space Complexity:** $\mathcal{O}(H)$ for recursion stack where $H$ is the height of the tree ($\mathcal{O}(N)$ worst-case, $\mathcal{O}(\log N)$ for balanced BST).
+- **Time Complexity:** O(N) where $N$ is the number of nodes in the tree.
+- **Space Complexity:** O(H) for recursion stack where $H$ is the height of the tree (O(N) worst-case, O(log N) for balanced BST).
 
 ## Code
 ```cpp

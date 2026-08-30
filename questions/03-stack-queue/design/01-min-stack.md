@@ -41,7 +41,7 @@ public:
 Instead of storing pairs, we can store only one value per push by encoding the minimum in the stack's values:
 1. **Pushing a new minimum:** When a value `x` is smaller than the current `minEle`, we push an encoded value `2 * x - minEle` onto the stack and update `minEle = x`. Since `x < minEle`, the encoded value is always strictly less than the new `minEle`, which acts as a flag.
 2. **Popping a minimum:** If the popped value is less than the current `minEle`, it indicates that this value is encoded and represents a change in the minimum. We can retrieve the previous minimum using `prevMin = 2 * minEle - st.top()`, and then restore it.
-3. **Complexity:** This approach uses $O(1)$ auxiliary space. *Note: In cases where inputs can cause integer overflow, using `long long` for the stack and `minEle` is recommended.*
+3. **Complexity:** This approach uses O(1) auxiliary space. *Note: In cases where inputs can cause integer overflow, using `long long` for the stack and `minEle` is recommended.*
 
 ### Code
 ```cpp

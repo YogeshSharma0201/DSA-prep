@@ -13,14 +13,14 @@ Take the first string as the initial prefix. For each subsequent string, shrink 
 > [!NOTE]
 > The C++ `std::string::find` method searches a string for the first occurrence of a specified substring or character and returns its zero-based starting index. If the element is not found, the method returns the special constant `std::string::npos`.
 
-- **Time Complexity:** $O(S)$ where $S$ is the sum of all characters in all strings.
-- **Space Complexity:** $O(1)$ constant extra space.
+- **Time Complexity:** O(S) where $S$ is the sum of all characters in all strings.
+- **Space Complexity:** O(1) constant extra space.
 
 ### Approach 2: Sorting (Lexicographical Comparison)
 By sorting the array of strings lexicographically, the first and last strings in the sorted list will be the most different. Thus, any common prefix shared by all strings must also be shared by the first and last strings. We can simply compare the first and last strings of the sorted array to find the longest common prefix.
 
-- **Time Complexity:** $O(N \cdot M \log N)$ where $N$ is the number of strings and $M$ is the maximum length of a string (due to sorting $N$ strings of length $M$).
-- **Space Complexity:** $O(1)$ constant extra space.
+- **Time Complexity:** O(N * M log N) where $N$ is the number of strings and $M$ is the maximum length of a string (due to sorting $N$ strings of length $M$).
+- **Space Complexity:** O(1) constant extra space.
 
 ## Code
 

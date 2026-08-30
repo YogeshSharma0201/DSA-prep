@@ -32,8 +32,8 @@ A mapping of digits to letters (just like on the telephone buttons) is given bel
    - If the input string `digits` is empty, return an empty vector `[]`.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(4^n \cdot n)$ — Where $n$ is the length of `digits`. In the worst case (e.g., digits 7 and 9), each digit maps to 4 letters, yielding $4^n$ combinations of length $n$.
-- **Space Complexity:** $\mathcal{O}(n)$ — Recursion call stack and `path` storage (excluding the result list).
+- **Time Complexity:** O(4^n * n) — Where $n$ is the length of `digits`. In the worst case (e.g., digits 7 and 9), each digit maps to 4 letters, yielding $4^n$ combinations of length $n$.
+- **Space Complexity:** O(n) — Recursion call stack and `path` storage (excluding the result list).
 
 ---
 

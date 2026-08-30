@@ -10,7 +10,7 @@ Given two integers dividend and divisor, divide them without using multiplicatio
 ### Intuition & Logic
 1. **The Core Goal:** Division is essentially repeated subtraction: finding how many times the divisor can be subtracted from the dividend before the remainder is less than the divisor.
 2. **Why Not Linear Subtraction?**
-   - Subtracting `divisor` from `dividend` one-by-one is $O(\text{dividend})$. If `dividend = INT_MAX` and `divisor = 1`, this would take $\approx 2 \times 10^9$ operations, resulting in Time Limit Exceeded (TLE).
+   - Subtracting `divisor` from `dividend` one-by-one is O(dividend). If `dividend = INT_MAX` and `divisor = 1`, this would take $\approx 2 \times 10^9$ operations, resulting in Time Limit Exceeded (TLE).
 3. **Exponential Search / Bit Shifting (Doubling Strategy):**
    - Every quotient $Q$ can be expressed in binary:
      $$Q = c_k \cdot 2^k + c_{k-1} \cdot 2^{k-1} + \dots + c_1 \cdot 2^1 + c_0 \cdot 2^0 \quad (c_i \in \{0, 1\})$$
@@ -67,8 +67,8 @@ Given two integers dividend and divisor, divide them without using multiplicatio
 - **Signs Without Multiplication:** If either dividend or divisor is negative (but not both), return `-quotient` instead of multiplying by sign: `positive ? quotient : -quotient`.
 
 ### Complexity
-- **Time Complexity:** $O((\log(\text{dividend}))^2)$ — The outer loop runs at most $O(\log(\text{dividend}))$ times, and the inner doubling loop runs $O(\log(\text{dividend}))$ times.
-- **Space Complexity:** $O(1)$ — Only a few 64-bit integer variables are used.
+- **Time Complexity:** O((log(dividend))^2) — The outer loop runs at most O(log(dividend)) times, and the inner doubling loop runs O(log(dividend)) times.
+- **Space Complexity:** O(1) — Only a few 64-bit integer variables are used.
 
 ## Code
 ```cpp

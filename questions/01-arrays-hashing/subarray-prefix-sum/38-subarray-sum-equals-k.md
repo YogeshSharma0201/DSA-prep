@@ -48,8 +48,8 @@ Thus, at any index `i` with a running prefix sum `csum` (which is $P[i]$):
 ---
 
 ### Complexity Analysis
-- **Time Complexity:** $O(N)$ — We iterate through the array of size $N$ once, performing $O(1)$ average-time hash map lookups.
-- **Space Complexity:** $O(N)$ — To store the prefix sums in the hash map.
+- **Time Complexity:** O(N) — We iterate through the array of size $N$ once, performing O(1) average-time hash map lookups.
+- **Space Complexity:** O(N) — To store the prefix sums in the hash map.
 
 ## Code
 

@@ -6,16 +6,16 @@
 
 Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.
 
-You must write an algorithm that runs in $O(n)$ time.
+You must write an algorithm that runs in O(n) time.
 
 ## Solution
 
 ### Core Idea
 
-To achieve $O(n)$ time, we can use a hash set to store all the numbers. This allows $O(1)$ lookups.
+To achieve O(n) time, we can use a hash set to store all the numbers. This allows O(1) lookups.
 
 To avoid redundant checks and avoid timeouts:
-1. We populate a hash set with all numbers from the array to eliminate duplicates and enable $O(1)$ lookups.
+1. We populate a hash set with all numbers from the array to eliminate duplicates and enable O(1) lookups.
 2. We iterate over the unique numbers in the set.
 3. For each number `num`, we check if it is the **start of a sequence**. We can do this by checking if `num - 1` is in the set.
    - If `num - 1` is present, `num` is *not* the start of a sequence, so we skip it.
@@ -24,8 +24,8 @@ To avoid redundant checks and avoid timeouts:
 
 By only starting sequences from numbers that do not have a predecessor in the set, each element in the set is visited at most twice (once in the outer loop, and at most once in the inner `while` loop). This keeps the overall time complexity linear.
 
-**Time Complexity:** $O(N)$ — Each number is processed at most a constant number of times.  
-**Space Complexity:** $O(N)$ — To store the unique elements in the hash set.
+**Time Complexity:** O(N) — Each number is processed at most a constant number of times.  
+**Space Complexity:** O(N) — To store the unique elements in the hash set.
 
 ## Code
 

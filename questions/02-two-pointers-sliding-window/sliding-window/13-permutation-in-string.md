@@ -27,7 +27,7 @@ Output: false
 
 ## Solution
 
-This problem can be solved efficiently in $O(N)$ time complexity using a **Sliding Window** with a frequency map representation (hash map or a 26-size array).
+This problem can be solved efficiently in O(N) time complexity using a **Sliding Window** with a frequency map representation (hash map or a 26-size array).
 
 ### Core Idea
 
@@ -42,8 +42,8 @@ This problem can be solved efficiently in $O(N)$ time complexity using a **Slidi
 ---
 
 ### Complexity Analysis
-- **Time Complexity:** $O(N)$ where $N$ is the length of `s2`. Comparing the two maps takes at most $O(\Sigma)$ time where $\Sigma \le 26$ (the size of the English alphabet).
-- **Space Complexity:** $O(\Sigma)$ auxiliary space for the maps, which is $O(1)$ since there are at most 26 unique lowercase English letters.
+- **Time Complexity:** O(N) where $N$ is the length of `s2`. Comparing the two maps takes at most O(\Sigma) time where $\Sigma \le 26$ (the size of the English alphabet).
+- **Space Complexity:** O(\Sigma) auxiliary space for the maps, which is O(1) since there are at most 26 unique lowercase English letters.
 
 ## Code
 

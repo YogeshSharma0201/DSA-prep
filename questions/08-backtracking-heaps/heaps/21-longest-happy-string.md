@@ -79,5 +79,5 @@ public:
 ---
 
 ## Complexity
-- **Time Complexity:** $\mathcal{O}((a + b + c) \log 3) = \mathcal{O}(a + b + c)$, since the heap contains at most 3 elements.
-- **Space Complexity:** $\mathcal{O}(1)$ auxiliary space (excluding the output string).
+- **Time Complexity:** O((a + b + c) log 3) = O(a + b + c), since the heap contains at most 3 elements.
+- **Space Complexity:** O(1) auxiliary space (excluding the output string).

@@ -46,8 +46,8 @@ public:
 ```
 
 ### Complexity
-- **Time Complexity:** $O(M + N \log M)$ where $N$ is the number of elements in `nums` and $M$ is the range of values ($M = \max(\text{nums}) - \min(\text{nums}) + 1 \approx 2 \times 10^4$). We perform 1 `query` and 1 `update` per element, each taking $O(\log M)$ time.
-- **Space Complexity:** $O(M)$ auxiliary space for the BIT array of size $M$, plus $O(N)$ for the result array.
+- **Time Complexity:** O(M + N log M) where $N$ is the number of elements in `nums` and $M$ is the range of values ($M = \max(\text{nums}) - \min(\text{nums}) + 1 \approx 2 \times 10^4$). We perform 1 `query` and 1 `update` per element, each taking O(log M) time.
+- **Space Complexity:** O(M) auxiliary space for the BIT array of size $M$, plus O(N) for the result array.
 
 ## Alternative Solution (Merge Sort)
 Sort indices instead of values, so the original positions are preserved. During the merge step of merge sort, whenever an element from the right half is placed before elements still remaining in the left half, every one of those remaining left elements has one more smaller element to its right — increment their counts by the number of right-half elements already merged in.
@@ -97,8 +97,8 @@ public:
 ```
 
 ### Complexity
-- **Time Complexity:** $O(N \log N)$ where $N$ is the number of elements in `nums`. The merge sort recursion tree has depth $O(\log N)$, and combining the halves at each level takes $O(N)$ time with two pointers.
-- **Space Complexity:** $O(N)$ auxiliary space for the `idx` array and the temporary `merged` buffer, plus $O(\log N)$ for the recursion call stack.
+- **Time Complexity:** O(N log N) where $N$ is the number of elements in `nums`. The merge sort recursion tree has depth O(log N), and combining the halves at each level takes O(N) time with two pointers.
+- **Space Complexity:** O(N) auxiliary space for the `idx` array and the temporary `merged` buffer, plus O(log N) for the recursion call stack.
 
 ### Relation to [Count Inversions](../01-arrays-hashing/27-count-inversions.md)
 Both problems use the exact same merge step, just aggregated differently:

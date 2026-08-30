@@ -19,7 +19,7 @@ Use a recursive approach to simulate addition:
 6. Set the `next` pointer of this new node to the result of recursively calling `addNumbers` with the next nodes of the lists and the new `carry`.
 7. Return the new node.
 
-This runs in \(O(\max(M, N))\) time complexity and \(O(\max(M, N))\) stack space.
+This runs in \(O(max(M, N))\) time complexity and \(O(max(M, N))\) stack space.
 
 ### Approach 2: Iterative (Dummy Node)
 Alternatively, use an iterative approach with a dummy node:
@@ -30,7 +30,7 @@ Alternatively, use an iterative approach with a dummy node:
 5. Move `temp` forward and update `carry = sum / 10`.
 6. Return `dummy->next`.
 
-This runs in \(O(\max(M, N))\) time complexity and \(O(1)\) auxiliary space.
+This runs in \(O(max(M, N))\) time complexity and \(O(1)\) auxiliary space.
 
 ## Code
 

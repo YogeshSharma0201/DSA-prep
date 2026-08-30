@@ -38,8 +38,8 @@ Return the **index of the room that held the most meetings**. If there are multi
 4. **Identify Winner**: Scan the room frequencies and find the room with the maximum count. If there is a tie, return the lowest index.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(M \log M + M \log N)$ where $M$ is the number of meetings and $N$ is the number of rooms. Sorting takes $\mathcal{O}(M \log M)$ time, and each meeting performs $\mathcal{O}(\log N)$ operations on the heaps.
-- **Space Complexity:** $\mathcal{O}(N)$ to store room states in the priority queues and track room frequencies.
+- **Time Complexity:** O(M log M + M log N) where $M$ is the number of meetings and $N$ is the number of rooms. Sorting takes O(M log M) time, and each meeting performs O(log N) operations on the heaps.
+- **Space Complexity:** O(N) to store room states in the priority queues and track room frequencies.
 
 ---
 
@@ -176,5 +176,5 @@ public:
 - **Initial Idea / Breakdown:**
   - Sort meetings by start time to process them chronologically.
   - To pick the lowest numbered room when multiple are free, a min-heap (`free_rooms`) is ideal.
-  - To handle meeting delays, we need to know which room becomes free earliest. A second min-heap (`busy_rooms`) keyed on meeting `end_time` provides this in $\mathcal{O}(1)$ time.
+  - To handle meeting delays, we need to know which room becomes free earliest. A second min-heap (`busy_rooms`) keyed on meeting `end_time` provides this in O(1) time.
   - If a meeting is delayed, its duration remains constant, meaning `new_end_time = earliest_free_time + (original_end - original_start)`.

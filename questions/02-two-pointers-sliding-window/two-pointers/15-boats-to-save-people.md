@@ -35,7 +35,7 @@ Explanation: 4 boats (3), (3), (4), (5)
 
 ## Solution
 
-The problem can be solved in $O(N \log N)$ time complexity using a **Greedy** approach with **Two Pointers**.
+The problem can be solved in O(N log N) time complexity using a **Greedy** approach with **Two Pointers**.
 
 ### Core Idea
 
@@ -50,8 +50,8 @@ The problem can be solved in $O(N \log N)$ time complexity using a **Greedy** ap
 ---
 
 ### Complexity Analysis
-- **Time Complexity:** $O(N \log N)$ — Sorting the array takes $O(N \log N)$ time, and the two-pointer traversal takes $O(N)$ time.
-- **Space Complexity:** $O(1)$ or $O(N)$ depending on the space complexity of the sorting algorithm.
+- **Time Complexity:** O(N log N) — Sorting the array takes O(N log N) time, and the two-pointer traversal takes O(N) time.
+- **Space Complexity:** O(1) or O(N) depending on the space complexity of the sorting algorithm.
 
 ## Code
 

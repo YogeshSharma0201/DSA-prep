@@ -33,8 +33,8 @@ To validate the Sudoku board in a single pass:
      - If no, we mark it `true` in all three tracking arrays.
 4. If the traversal completes without any rule violations, we return `true`.
 
-**Time Complexity:** $O(1)$ — The board is of fixed size $9 \times 9$, so the execution time is constant.  
-**Space Complexity:** $O(1)$ — The grids for tracking rows, columns, and sub-boxes are also of fixed size $9 \times 9$.
+**Time Complexity:** O(1) — The board is of fixed size $9 \times 9$, so the execution time is constant.  
+**Space Complexity:** O(1) — The grids for tracking rows, columns, and sub-boxes are also of fixed size $9 \times 9$.
 
 ## Code
 

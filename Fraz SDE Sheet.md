@@ -6,7 +6,7 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **234** of **318** solved (74%)
+**Overall Completion:** **235** of **318** solved (74%)
 `[███████████░░░░]`
 
 ### Topic-wise Progress
@@ -23,7 +23,7 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 | **Trees & Binary Search Trees** | `[███████████░░░░]` | 76% | 31 | 41 |
 | **Hash Table** | `[███████████████]` | 100% | 4 | 4 |
 | **Binary Search** | `[█████████████░░]` | 89% | 16 | 18 |
-| **Breadth-First Search (BFS)** | `[███████░░░░░░░░]` | 44% | 4 | 9 |
+| **Breadth-First Search (BFS)** | `[████████░░░░░░░]` | 56% | 5 | 9 |
 | **Two Pointers** | `[███████████████]` | 100% | 5 | 5 |
 | **Stack & Queue** | `[████████████░░░]` | 83% | 10 | 12 |
 | **Design** | `[█████████████░░]` | 86% | 6 | 7 |
@@ -329,8 +329,8 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 | `[ ]` | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Medium | - | - |
 | `[x]` | 909 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | 🟡 Medium | - | [Solution 📄](./questions/06-graphs/traversal-search/15-snakes-and-ladders.md) |
 | `[x]` | 785 | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/) | 🟡 Medium | - | [Solution 📄](./questions/06-graphs/properties-cycles/03-is-graph-bipartite.md) |
-| `[ ]` | 1654 | [Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/) | 🟡 Medium | - | - |
-| `[ ]` | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | - | - |
+| `[x]` | 1654 | [Minimum Jumps to Reach Home](https://leetcode.com/problems/minimum-jumps-to-reach-home/) | 🟡 Medium | - | [Solution 📄](./questions/06-graphs/traversal-search/35-minimum-jumps-to-reach-home.md) |
+| `[x]` | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | - | [Solution 📄](./questions/06-graphs/traversal-search/33-word-ladder.md) |
 | `[ ]` | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | 🔴 Hard | - | - |
 | `[ ]` | 675 | [Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | 🔴 Hard | - | - |
 | `[x]` | 882 | [Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph/) | 🔴 Hard | - | [Solution 📄](./questions/06-graphs/traversal-search/13-reachable-nodes-subdivided.md) |

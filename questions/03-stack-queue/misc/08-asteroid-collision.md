@@ -38,7 +38,7 @@ Explanation: The 2 and -5 collide resulting in -5. The 10 and -5 collide resulti
 
 ## Solution
 
-This problem can be solved in $O(N)$ time complexity using a **Stack** (implemented via a `std::vector` to allow easy conversion to the final output).
+This problem can be solved in O(N) time complexity using a **Stack** (implemented via a `std::vector` to allow easy conversion to the final output).
 
 ### Core Idea
 
@@ -53,8 +53,8 @@ This problem can be solved in $O(N)$ time complexity using a **Stack** (implemen
 ---
 
 ### Complexity Analysis
-- **Time Complexity:** $O(N)$ — Each asteroid is pushed onto and popped from the stack at most once.
-- **Space Complexity:** $O(N)$ for the stack storage in the worst-case scenario where no collisions occur.
+- **Time Complexity:** O(N) — Each asteroid is pushed onto and popped from the stack at most once.
+- **Space Complexity:** O(N) for the stack storage in the worst-case scenario where no collisions occur.
 
 ## Code
 

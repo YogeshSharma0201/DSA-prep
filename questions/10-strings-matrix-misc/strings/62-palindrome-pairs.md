@@ -13,15 +13,15 @@ A **palindrome pair** is a pair of integers `(i, j)` such that:
 
 Return *an array of all the palindrome pairs of words*.
 
-You must write an algorithm with a time complexity of $O(\text{sum of lengths of all words})$. Note that while the hash map solution is slightly higher in worst-case time complexity, it passes the test cases efficiently.
+You must write an algorithm with a time complexity of O(sum of lengths of all words). Note that while the hash map solution is slightly higher in worst-case time complexity, it passes the test cases efficiently.
 
 ## Solution
 
 ### Core Idea
 
-A naive check of all pairs would take $O(N^2 \cdot K)$ where $N$ is the number of words and $K$ is the average length of a word. This is too slow.
+A naive check of all pairs would take O(N^2 * K) where $N$ is the number of words and $K$ is the average length of a word. This is too slow.
 
-To optimize, we can use a hash map to look up matching strings in $O(1)$ average time:
+To optimize, we can use a hash map to look up matching strings in O(1) average time:
 1. Store all reversed words in a hash map `umap` where the key is the reversed word and the value is its original index.
 2. For each word `words[i]`, we try splitting it at every possible index `j` (from `0` to `words[i].length()`) into two parts: `left` and `right`.
 3. There are two cases where the concatenation can form a palindrome:
@@ -30,8 +30,8 @@ To optimize, we can use a hash map to look up matching strings in $O(1)$ average
 4. We insert the pairs into a `set<vector<int>>` to handle deduplication (since when `j = 0` or `j = words[i].length()`, both `left` and `right` can be empty and create duplicate checks).
 5. Finally, we convert the set into the final result vector.
 
-**Time Complexity:** $O(N \cdot K^2)$ where $N$ is the number of words and $K$ is the maximum/average length of a word. We loop $N$ times, and for each word, we do $K$ substring/reversal/lookup operations of size up to $K$.  
-**Space Complexity:** $O(N \cdot K)$ to store the reversed words in the hash map.
+**Time Complexity:** O(N * K^2) where $N$ is the number of words and $K$ is the maximum/average length of a word. We loop $N$ times, and for each word, we do $K$ substring/reversal/lookup operations of size up to $K$.  
+**Space Complexity:** O(N * K) to store the reversed words in the hash map.
 
 ## Code
 

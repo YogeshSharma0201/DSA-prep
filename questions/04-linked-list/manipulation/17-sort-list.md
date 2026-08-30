@@ -12,8 +12,8 @@ Use **Merge Sort** on the Linked List:
 3. **Divide:** Recursively call `sortList` on the left half (`head`) and right half (`slow`).
 4. **Conquer / Merge:** Merge the two sorted linked lists using a helper function `mergeList`.
 
-**Time Complexity:** \(O(N \log N)\)  
-**Space Complexity:** \(O(\log N)\) recursion stack space
+**Time Complexity:** \(O(N log N)\)  
+**Space Complexity:** \(O(log N)\) recursion stack space
 
 ## Code
 ```cpp

@@ -6,12 +6,12 @@
 Given an array of integers `heights` representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.
 
 ## Solution
-We can solve this problem in $O(N)$ time and $O(N)$ space using a **monotonic stack**:
+We can solve this problem in O(N) time and O(N) space using a **monotonic stack**:
 1. For each bar, we want to find how far the rectangle of its height can extend to the left and right.
 2. The rectangle of height `heights[i]` can extend from the first bar to its left that is strictly shorter than `heights[i]` (let's call its index `left[i]`) to the first bar to its right that is strictly shorter than `heights[i]` (let's call its index `right[i]`).
 3. The width of the rectangle will be `right[i] - left[i] - 1`.
 4. The area for bar `i` is `heights[i] * (right[i] - left[i] - 1)`.
-5. We use a monotonic stack to find `left[i]` (nearest smaller element to the left) and `right[i]` (nearest smaller element to the right) for all indices in $O(N)$ time.
+5. We use a monotonic stack to find `left[i]` (nearest smaller element to the left) and `right[i]` (nearest smaller element to the right) for all indices in O(N) time.
 
 ## Code
 ```cpp

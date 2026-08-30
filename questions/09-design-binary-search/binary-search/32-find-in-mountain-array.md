@@ -14,7 +14,7 @@ You cannot access the mountain array directly. You may only access the array usi
 Submissions making more than 100 calls to `MountainArray.get` will be judged *Wrong Answer*.
 
 ## Solution
-We can find the target in $O(\log N)$ time and $O(1)$ space using three binary searches:
+We can find the target in O(log N) time and O(1) space using three binary searches:
 1. **Find Peak Element ($k$):**
    - Perform binary search to find the peak index.
    - At each `mid`, check if `mountainArr.get(mid) < mountainArr.get(mid+1)`. If true, the peak is in the right half (`l = mid + 1`). Otherwise, the peak is at `mid` or in the left half (`r = mid`).

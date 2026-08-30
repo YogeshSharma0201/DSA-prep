@@ -9,7 +9,7 @@ The first node is considered odd, and the second node is even, and so on.
 
 Note that the relative order inside both the even and odd groups should remain as it was in the input.
 
-You must solve the problem in $O(1)$ extra space complexity and $O(n)$ time complexity.
+You must solve the problem in O(1) extra space complexity and O(n) time complexity.
 
 ## Solution
 We can rearrange the linked list in-place by dividing it into two lists—one for odd-indexed nodes and another for even-indexed nodes—and then joining them together:

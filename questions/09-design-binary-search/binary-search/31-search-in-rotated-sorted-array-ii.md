@@ -27,8 +27,8 @@ We can perform a single-pass binary search to find the target. However, since th
 
 | Feature | Search in Rotated Sorted Array I (Unique) | Search in Rotated Sorted Array II (Duplicates) |
 | :--- | :--- | :--- |
-| **Worst-case Time** | $O(\log n)$ | $O(n)$ (when all elements are identical and we search for a different element) |
-| **Pivot Identification** | Possible in $O(\log n)$ time. | Not possible in $O(\log n)$ worst-case time due to flat regions. |
+| **Worst-case Time** | O(log n) | O(n) (when all elements are identical and we search for a different element) |
+| **Pivot Identification** | Possible in O(log n) time. | Not possible in O(log n) worst-case time due to flat regions. |
 | **Binary Search Approach** | Can be solved in 2 passes (Pass 1: find pivot; Pass 2: standard binary search on mapped indices) or a single-pass. | Must be solved in a single-pass; finding the pivot first is inefficient. |
 | **Ambiguity Resolution** | None needed. `nums[l] == nums[mid] == nums[r]` can only happen when the range has collapsed ($l = r$). | When `nums[l] == nums[mid] == nums[r]`, we must shrink the search window linearly (`l++`, `r--`). |
 

@@ -24,19 +24,19 @@ A Binary Min-Heap is a complete binary tree represented as an array / vector whe
 1. **`push(x)`**:
    - Append `x` to the end of the array.
    - Perform **`heapifyUp`** (bubble up) starting from the newly added element: compare with parent and swap if `heap[parent] > heap[child]` until the heap property is restored.
-   - **Time Complexity:** $\mathcal{O}(\log n)$
+   - **Time Complexity:** O(log n)
 
 2. **`pop()`**:
    - If empty, return.
    - If only one element exists, simply remove it.
    - Otherwise, replace the root `heap[0]` with the last element `heap.back()`, pop the last element, and perform **`heapifyDown`** (bubble down / sink) starting from index `0`: compare root with its left and right children, swap with the smallest of the three, and repeat until the heap property is restored.
-   - **Time Complexity:** $\mathcal{O}(\log n)$
+   - **Time Complexity:** O(log n)
 
 3. **`peek()`**:
-   - Returns the root element `heap[0]` in $\mathcal{O}(1)$ time. Returns `-1` if empty.
+   - Returns the root element `heap[0]` in O(1) time. Returns `-1` if empty.
 
 4. **`size()`**:
-   - Returns `heap.size()` in $\mathcal{O}(1)$ time.
+   - Returns `heap.size()` in O(1) time.
 
 ---
 
@@ -124,8 +124,8 @@ class minHeap {
 
 | Operation | Time Complexity | Space Complexity |
 | :--- | :--- | :--- |
-| **`push(x)`** | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ auxiliary |
-| **`pop()`** | $\mathcal{O}(\log n)$ | $\mathcal{O}(1)$ auxiliary |
-| **`peek()`** | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ |
-| **`size()`** | $\mathcal{O}(1)$ | $\mathcal{O}(1)$ |
-| **Total Space** | — | $\mathcal{O}(n)$ to store elements |
+| **`push(x)`** | O(log n) | O(1) auxiliary |
+| **`pop()`** | O(log n) | O(1) auxiliary |
+| **`peek()`** | O(1) | O(1) |
+| **`size()`** | O(1) | O(1) |
+| **Total Space** | — | O(n) to store elements |

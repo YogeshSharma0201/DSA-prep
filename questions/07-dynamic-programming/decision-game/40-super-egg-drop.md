@@ -24,18 +24,18 @@ To find the optimal floor $x$ to drop from, we want to minimize this worst-case 
 $$\text{dp}(k, n) = 1 + \min_{1 \le x \le n} \left( \max(\text{dp}(k - 1, x - 1), \text{dp}(k, n - x)) \right)$$
 
 ### Binary Search Optimization
-A naive linear search over all $x \in [1, n]$ takes $O(n)$ time per state, leading to $O(k \cdot n^2)$ total time, which is too slow for $n \le 10^4$.
+A naive linear search over all $x \in [1, n]$ takes O(n) time per state, leading to O(k * n^2) total time, which is too slow for $n \le 10^4$.
 However, as $x$ increases:
 - $T_1(x) = \text{dp}(k - 1, x - 1)$ is a monotonically increasing function of $x$.
 - $T_2(x) = \text{dp}(k, n - x)$ is a monotonically decreasing function of $x$.
 
-The maximum of an increasing function and a decreasing function is minimized near their intersection point. We can use **binary search** to find this intersection in $O(\log n)$ time.
+The maximum of an increasing function and a decreasing function is minimized near their intersection point. We can use **binary search** to find this intersection in O(log n) time.
 - If $T_1(mid) < T_2(mid)$, we need to check higher floors to find the intersection, so we move the left bound: `l = mid + 1`.
 - Otherwise, we check lower floors: `h = mid - 1`.
 
 ### Complexity
-- **Time Complexity:** $O(k \cdot n \log n)$ since we have $k \times n$ states and we spend $O(\log n)$ time per state.
-- **Space Complexity:** $O(k \cdot n)$ for the memoization table.
+- **Time Complexity:** O(k * n log n) since we have $k \times n$ states and we spend O(log n) time per state.
+- **Space Complexity:** O(k * n) for the memoization table.
 
 ## Code
 ```cpp

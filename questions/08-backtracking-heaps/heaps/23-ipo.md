@@ -26,8 +26,8 @@ Pick a list of at most `k` distinct projects from given projects to maximize you
      - If the max-heap is empty, we cannot afford any more projects, so break early.
      - Greedily pick the project with the highest profit (`pq.top()`), add its profit to current capital, and pop it from the heap.
 3. **Complexity**:
-   - **Time Complexity:** $\mathcal{O}(n \log n + k \log n)$ — $\mathcal{O}(n \log n)$ to sort the projects and at most $n$ insertions and $k$ removals from the priority queue.
-   - **Space Complexity:** $\mathcal{O}(n)$ — to store project pairs and the priority queue.
+   - **Time Complexity:** O(n log n + k log n) — O(n log n) to sort the projects and at most $n$ insertions and $k$ removals from the priority queue.
+   - **Space Complexity:** O(n) — to store project pairs and the priority queue.
 
 ---
 

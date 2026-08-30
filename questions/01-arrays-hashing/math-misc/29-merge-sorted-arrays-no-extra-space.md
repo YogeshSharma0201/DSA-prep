@@ -38,9 +38,9 @@ void mergeArrays(vector<int>& a, vector<int>& b) {
 ```
 
 ### Complexity
-- **Time Complexity:** \(O(n \log n + m \log m)\)
+- **Time Complexity:** \(O(n log n + m log m)\)
   - The swapping loop runs at most \(\min(n, m)\) times, which is \(O(\min(n, m))\).
-  - Sorting both arrays takes \(O(n \log n + m \log m)\).
+  - Sorting both arrays takes \(O(n log n + m log m)\).
 - **Space Complexity:** \(O(1)\) auxiliary space (excluding recursion stack space for sorting).
 
 ---
@@ -70,7 +70,7 @@ void merge(vector<long long>& arr1, vector<long long>& arr2, int n, int m) {
 
 ### Complexity
 - **Time Complexity:** \(O((n + m) \log(n + m))\)
-  - The outer loop runs \(O(\log(n + m))\) times as the gap is halved.
+  - The outer loop runs \(O(log(n + m))\) times as the gap is halved.
   - The inner loop does \(O(n + m)\) comparisons.
 - **Space Complexity:** \(O(1)\) auxiliary space.
 

@@ -12,7 +12,7 @@ Implement the `FreqStack` class:
   - If there is a tie for the most frequent element, the element closest to the stack's top is removed and returned.
 
 ## Solution
-We can solve this problem in $O(1)$ time complexity for both `push` and `pop` operations by using a combination of hash maps and stacks:
+We can solve this problem in O(1) time complexity for both `push` and `pop` operations by using a combination of hash maps and stacks:
 1. **Frequency Map (`freq`):** Maps each element to its current frequency in the stack.
 2. **Group Map (`umap`):** Maps a frequency to a stack of elements. If multiple elements have the same frequency, they are pushed onto the stack corresponding to that frequency. The stack naturally maintains the order of elements, resolving ties by returning the one closest to the top of the stack (LIFO order).
 3. **Maximum Frequency (`maxFreq`):** Tracks the current maximum frequency of any element in the stack.

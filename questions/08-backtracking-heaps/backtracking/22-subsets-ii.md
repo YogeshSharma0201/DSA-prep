@@ -21,8 +21,8 @@ The solution set must not contain duplicate subsets. Return the solution in any 
    - When `idx == nums.size()`, append `currPath` to `res`.
 
 ### Complexity
-- **Time Complexity:** $\mathcal{O}(n \cdot 2^n)$ — Sorting takes $\mathcal{O}(n \log n)$ and generating subsets takes $\mathcal{O}(n \cdot 2^n)$ time.
-- **Space Complexity:** $\mathcal{O}(n)$ — Recursion call stack and `currPath` storage (excluding the result list).
+- **Time Complexity:** O(n * 2^n) — Sorting takes O(n log n) and generating subsets takes O(n * 2^n) time.
+- **Space Complexity:** O(n) — Recursion call stack and `currPath` storage (excluding the result list).
 
 ---
 

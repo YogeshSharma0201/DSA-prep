@@ -15,7 +15,7 @@ This is a classic greedy problem.
 
 We can implement this using two different approaches:
 1. **Greedy Simulation (with Priority Queue):** Sort the array and simulate the nesting. Keep track of the currently visible bottles in a min-heap (implemented using a max-heap with negative values). For each bottle, if it is strictly larger than the smallest visible bottle, we nest the smaller one inside it (pop the smaller one) and mark the new bottle as visible.
-2. **Max Frequency Count (Optimal):** Sort the array and find the maximum frequency of any element by counting consecutive duplicates. This runs in $O(N \log N)$ time and $O(1)$ space.
+2. **Max Frequency Count (Optimal):** Sort the array and find the maximum frequency of any element by counting consecutive duplicates. This runs in O(N log N) time and O(1) space.
 
 ## Code
 

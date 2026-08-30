@@ -20,7 +20,7 @@ We can construct a Quad-Tree from a two-dimensional area using the following ste
 To optimize finding whether a sub-grid consists entirely of `0`s or `1`s, we can use a 2D Prefix Sum (Prefix Grid Sum).
 1. **Precompute 2D Prefix Sum:**
    Create a `preSum` matrix of size `(n+1) * (n+1)`. `preSum[i][j]` stores the sum of all elements in the subgrid from `(0, 0)` to `(i-1, j-1)`.
-   Using prefix sums, the sum of a subgrid bounded by top-left `(x1, y1)` and bottom-right `(x2, y2)` (1-indexed based on the prefix sum matrix) can be calculated in $O(1)$ time:
+   Using prefix sums, the sum of a subgrid bounded by top-left `(x1, y1)` and bottom-right `(x2, y2)` (1-indexed based on the prefix sum matrix) can be calculated in O(1) time:
    $$\text{sum} = \text{preSum}[x2][y2] - \text{preSum}[x2][y1-1] - \text{preSum}[x1-1][y2] + \text{preSum}[x1-1][y1-1]$$
 2. **Recursive Construction:**
    - Define `constructTree(x, y, s)` where `(x, y)` is the 1-indexed top-left corner of the subgrid in the `preSum` matrix, and `s` is the size of the subgrid.

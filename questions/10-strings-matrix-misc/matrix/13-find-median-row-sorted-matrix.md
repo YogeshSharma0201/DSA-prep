@@ -35,6 +35,6 @@ We can also solve this by finding the $k$-th smallest element in the matrix wher
 
 | Metric | Binary Search (Current Solution) | Min-Heap Approach |
 | :--- | :--- | :--- |
-| **Time Complexity** | $O(r \log c \cdot \log(\text{Range}))$ | $O(r + (r \times c) \log r)$ |
-| **Space Complexity** | $O(1)$ | $O(r)$ |
+| **Time Complexity** | O(r log c * log(Range)) | O(r + (r * c) \log r) |
+| **Space Complexity** | O(1) | O(r) |
 | **Trade-offs** | **Faster for large matrices**. If $r \times c \approx 10^6$, Binary Search does $\approx 3 \times 10^5$ operations whereas Heap does $\approx 5 \times 10^6$ operations. | **Range Independent**. Best when value range is extremely large, arbitrary, or uses floating-point values where binary search bounds are difficult to set. |

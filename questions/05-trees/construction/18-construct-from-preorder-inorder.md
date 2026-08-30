@@ -8,7 +8,7 @@
 Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal and `inorder` is the inorder traversal of the same tree, construct and return the binary tree.
 
 ### Solution
-The first element of `preorder` is always the root. Find that value in `inorder` — everything to its left forms the left subtree, everything to its right forms the right subtree. Recurse with the corresponding slices of both arrays. Use a hash map for $O(1)$ inorder index lookup.
+The first element of `preorder` is always the root. Find that value in `inorder` — everything to its left forms the left subtree, everything to its right forms the right subtree. Recurse with the corresponding slices of both arrays. Use a hash map for O(1) inorder index lookup.
 
 ### Code
 ```cpp
@@ -42,7 +42,7 @@ public:
 Given two integer arrays `inorder` and `postorder` where `inorder` is the inorder traversal of a binary tree and `postorder` is the postorder traversal of the same tree, construct and return the binary tree.
 
 ### Solution
-The last element of `postorder` is always the root of the current subtree. Find that value in `inorder` — everything to its left forms the left subtree, everything to its right forms the right subtree. Recurse with the corresponding slices of both arrays. Use a hash map for $O(1)$ inorder index lookup.
+The last element of `postorder` is always the root of the current subtree. Find that value in `inorder` — everything to its left forms the left subtree, everything to its right forms the right subtree. Recurse with the corresponding slices of both arrays. Use a hash map for O(1) inorder index lookup.
 
 ### Code
 ```cpp

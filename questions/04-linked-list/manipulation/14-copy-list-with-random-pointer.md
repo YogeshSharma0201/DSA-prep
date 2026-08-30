@@ -10,7 +10,7 @@ Construct a deep copy of the list. The deep copy should consist of exactly `n` b
 Return the head of the copied linked list.
 
 ## Solution
-This approach works in $O(n)$ time and $O(1)$ extra space (excluding the space for the copied list nodes themselves):
+This approach works in O(n) time and O(1) extra space (excluding the space for the copied list nodes themselves):
 1. **Create copy nodes and interweave them:** Traverse the original list and insert a copy of each node immediately following its original node.
    - E.g., `A -> B -> C` becomes `A -> A' -> B -> B' -> C -> C'`.
 2. **Assign random pointers:** Traverse the interweave list. The copy node's random pointer can be resolved directly from the original node's random pointer.
