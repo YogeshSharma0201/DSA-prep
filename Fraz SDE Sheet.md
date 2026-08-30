@@ -142,7 +142,7 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 | `[x]` | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | - | [Solution 📄](./questions/10-strings-matrix-misc/strings/32-regular-expression-matching.md) |
 | `[x]` | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | 🔴 Hard | - | [Solution 📄](./questions/10-strings-matrix-misc/matrix/18-maximal-rectangle.md) |
 | `[x]` | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | 🔴 Hard | - | [Solution 📄](./questions/03-stack-queue/parsing-expression/10-longest-valid-parentheses.md) |
-| `[ ]` | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🔴 Hard | - | - |
+| `[x]` | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🔴 Hard | - | [Solution 📄](./questions/07-dynamic-programming/string-dp/34-edit-distance.md) |
 | `[x]` | 1335 | [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/) | 🔴 Hard | - | [Solution 📄](./questions/07-dynamic-programming/decision-game/36-minimum-difficulty-job-schedule.md) |
 | `[ ]` | 403 | [Frog Jump](https://leetcode.com/problems/frog-jump/) | 🔴 Hard | - | - |
 | `[ ]` | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=mFwf1YbH-Jk) | - |

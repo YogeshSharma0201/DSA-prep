@@ -299,7 +299,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[ ]` | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=I-z-u0zfQtg) | - |
 | `[ ]` | 329 | [Longest Increasing Path In a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=wCc_nd-GiEc) | - |
 | `[ ]` | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=-RDzMJ33nx8) | - |
-| `[ ]` | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XYi2-LPrwm4) | - |
+| `[x]` | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=XYi2-LPrwm4) | [Solution 📄](./questions/07-dynamic-programming/string-dp/34-edit-distance.md) |
 | `[x]` | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=VFskby7lUbw) | [Solution 📄](./questions/07-dynamic-programming/interval-dp/34-burst-balloons.md) |
 | `[x]` | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=HAA8mgxlov8) | [Solution 📄](./questions/10-strings-matrix-misc/strings/32-regular-expression-matching.md) |
 
