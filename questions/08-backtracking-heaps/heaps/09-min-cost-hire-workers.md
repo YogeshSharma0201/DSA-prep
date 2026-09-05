@@ -16,7 +16,8 @@ public:
         int n = quality.size();
         vector<pair<double,int>> workers(n);
         for (int i = 0; i < n; i++)
-            workers[i] = {(double)wage[i] / quality[i], quality[i]};
+            workers[i] = {(double)wage[i] / quality[i], quality[i]}; // Note: this is w/q because we need to find total w given a maximum ratio of w/q
+                                                                        // we can easily find total w by max w/q * max q
         sort(workers.begin(), workers.end());
 
         priority_queue<int> maxHeap; // max-heap to keep k smallest qualities

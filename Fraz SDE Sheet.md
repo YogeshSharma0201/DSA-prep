@@ -6,7 +6,7 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **235** of **318** solved (74%)
+**Overall Completion:** **237** of **318** solved (75%)
 `[███████████░░░░]`
 
 ### Topic-wise Progress
@@ -15,7 +15,7 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 | :--- | :--- | :--- | :--- | :--- |
 | **Arrays** | `[████████████░░░]` | 77% | 33 | 43 |
 | **Recursion & Backtracking** | `[████████████░░░]` | 81% | 13 | 16 |
-| **Dynamic Programming** | `[████████████░░░]` | 77% | 27 | 35 |
+| **Dynamic Programming** | `[████████████░░░]` | 80% | 28 | 35 |
 | **Strings** | `[████████████░░░]` | 77% | 17 | 22 |
 | **Math & Geometry** | `[█████████░░░░░░]` | 60% | 12 | 20 |
 | **Greedy** | `[████████████░░░]` | 82% | 9 | 11 |
@@ -23,7 +23,7 @@ This file tracks the status of the **Fraz SDE Sheet** (250+ Curated LeetCode DSA
 | **Trees & Binary Search Trees** | `[███████████░░░░]` | 76% | 31 | 41 |
 | **Hash Table** | `[███████████████]` | 100% | 4 | 4 |
 | **Binary Search** | `[█████████████░░]` | 89% | 16 | 18 |
-| **Breadth-First Search (BFS)** | `[████████░░░░░░░]` | 56% | 5 | 9 |
+| **Breadth-First Search (BFS)** | `[██████████░░░░░]` | 67% | 6 | 9 |
 | **Two Pointers** | `[███████████████]` | 100% | 5 | 5 |
 | **Stack & Queue** | `[████████████░░░]` | 83% | 10 | 12 |
 | **Design** | `[█████████████░░]` | 86% | 6 | 7 |

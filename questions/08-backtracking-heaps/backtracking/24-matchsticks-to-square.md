@@ -9,38 +9,34 @@ Return `true` if you can make this square and `false` otherwise.
 
 ---
 
-## Solution (Backtracking + Bitmask Memoization)
+## Solutions
 
-> **Note:** This problem is equivalent to partitioning an array into $k = 4$ subsets with equal sum (`totalSum / 4`), similar to *Partition to K Equal Sum Subsets* (LeetCode 698).
+### Approach 1: Top-Down DFS with Bitmask Memoization — O(N * 2^N) Time, O(2^N) Space
+- **State:** `dfs(mask, currSum, side)`
+  - `mask`: Bitmask representing used matchsticks.
+  - `currSum`: Sum of matchsticks accumulated for the current active side.
+  - `dp[mask]`: Memoizes whether remaining matchsticks defined by `mask` can complete the square.
+- **Transitions:** Try placing each unused stick `i` such that `currSum + matchsticks[i] <= side`.
+- Resets current side accumulator `(currSum + matchsticks[i]) % side` whenever a side is filled.
 
-### Approach
-1. **Total Sum & Side Check**:
-   - Calculate total length of all matchsticks: `total = accumulate(matchsticks)`.
-   - If `total % 4 != 0`, we cannot form a square, return `false`.
-   - The required side length of each of the 4 sides is `side = total / 4`.
-2. **State Representation**:
-   - `mask`: An integer where the $i$-th bit is `1` if `matchsticks[i]` has been used, and `0` otherwise.
-   - `currSum`: The sum of matchsticks placed on the currently active side.
-   - `dp[mask]`: Memoizes whether the remaining unplaced matchsticks defined by `mask` can successfully form the remaining square sides.
-3. **Transitions**:
-   - Try placing any unused matchstick `i` (`!(mask & (1 << i))`) such that `currSum + matchsticks[i] <= side`.
-   - The next side sum becomes `(currSum + matchsticks[i]) % side` (resets to 0 whenever a side of length `side` is completed).
-   - If all matchsticks are used (`mask == (1 << n) - 1`), return `true`.
+---
 
-### Complexity
-- **Time Complexity:** O(n * 2^n) — There are $2^n$ unique bitmask states and from each state we try up to $n$ transitions.
-- **Space Complexity:** O(2^n) — Memoization table `dp` of size $2^n$ plus recursion stack O(n).
+### Approach 2: Bottom-Up Iterative Bitmask DP — O(N * 2^N) Time, O(2^N) Space
+- **`dp[mask]`:** Stores the accumulated remainder `sum % target` for the current side after using matchsticks indicated by `mask`.
+- Initialize `dp[0] = 0` and all other states to `-1` (unreachable).
+- Iterate mask `i` from `0` to `(1 << n) - 1`:
+  - **Crucial Rule:** If `dp[i] == -1`, skip the mask (`continue`). Do **not** `return false`, as mask `i` might just be an invalid intermediate subset while other valid paths exist!
+  - For each unused stick `j`, if `dp[i] + matchsticks[j] <= target`, set:
+    $$\text{dp}[i \mid (1 \ll j)] = (\text{dp}[i] + \text{matchsticks}[j]) \bmod \text{target}$$
+- Final Answer: `dp.back() == 0` (all matchsticks used and final side completed).
 
 ---
 
 ## Code
 
+### Approach 1: Top-Down DFS + Bitmask Memoization
+
 ```cpp
-#include <vector>
-#include <numeric>
-
-using namespace std;
-
 class Solution {
 public:
     bool dfs(int mask, int currSum, int groupTarget, vector<int>& matchsticks, vector<int>& dp) {
@@ -76,3 +72,34 @@ public:
     }
 };
 ```
+
+### Approach 2: Bottom-Up Iterative Bitmask DP
+
+```cpp
+class Solution {
+public:
+    bool makesquare(vector<int>& match) {
+        int n = match.size();
+        int tot = accumulate(match.begin(), match.end(), 0);
+
+        if (tot % 4 != 0) return false;
+        int target = tot / 4;
+
+        vector<int> dp(1 << n, -1);
+        dp[0] = 0;
+
+        for (int i = 0; i < (1 << n); i++) {
+            if (dp[i] == -1) continue; // Skip unreachable subset states
+            for (int j = 0; j < n; j++) {
+                if (i & (1 << j)) continue; // Matchstick j already used
+                if (dp[i] + match[j] > target) continue; // Exceeds current side
+                
+                dp[i | (1 << j)] = (dp[i] + match[j]) % target;
+            }
+        }
+
+        return dp.back() == 0;
+    }
+};
+```
+
