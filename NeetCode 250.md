@@ -6,7 +6,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **175** of **250** solved (70%)
+**Overall Completion:** **176** of **250** solved (70%)
 `[███████████░░░░]`
 
 ### Topic-wise Progress
@@ -30,7 +30,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | **Intervals** | `[██████░░░░░░░░░]` | 43% | 3 | 7 |
 | **Math & Geometry** | `[████████░░░░░░░]` | 54% | 7 | 13 |
 | **Bit Manipulation** | `[████████░░░░░░░]` | 50% | 5 | 10 |
-| **Tries** | `[░░░░░░░░░░░░░░░]` | 0% | 0 | 4 |
+| **Tries** | `[████░░░░░░░░░░░]` | 25% | 1 | 4 |
 
 ---
 
@@ -371,7 +371,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 | Saved | # | Question Link | Difficulty | YouTube Video | Local Solution |
 | :---: | :---: | :--- | :---: | :---: | :--- |
-| `[ ]` | 208 | [Implement Trie Prefix Tree](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=oobqoCJlHA0) | - |
+| `[x]` | 208 | [Implement Trie Prefix Tree](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=oobqoCJlHA0) | [Solution 📄](./questions/05-trees/trie/01-implement-trie.md) |
 | `[ ]` | 211 | [Design Add And Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=BTf05gs_8iU) | - |
 | `[ ]` | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ONstwO1cD7c) | - |
 | `[ ]` | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=asbcE9mZz_U) | - |

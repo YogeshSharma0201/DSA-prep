@@ -253,7 +253,7 @@
 
 ## 11. 🌐 Trie
 
-- [ ] 🔥 **[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)** · Medium · ⭐⭐⭐⭐ · [GFG](https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1)
+- [x] 🔥 **[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)** · Medium · ⭐⭐⭐⭐ · [GFG](https://www.geeksforgeeks.org/problems/trie-insert-and-search0651/1)
   > *Follow-up: Add wildcard search. Add autocomplete functionality. Design Search Autocomplete System (LC #642).*
 - [ ] **[Word Search II](https://leetcode.com/problems/word-search-ii/)** · Hard · ⭐⭐⭐
 - [ ] **[Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)** · Hard · ⭐⭐ *(SDE2+)*

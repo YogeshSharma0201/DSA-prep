@@ -177,6 +177,7 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 169 | [Bellman-Ford Algorithm](./questions/06-graphs/shortest-paths/21-bellman-ford.md) ([LeetCode](https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/)) | Graphs (Shortest Paths) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 170 | [Network Delay Time](./questions/06-graphs/shortest-paths/22-network-delay-time.md) ([LeetCode](https://leetcode.com/problems/network-delay-time)) | Graphs (Shortest Paths) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 171 | [Path with Minimum Effort](./questions/06-graphs/shortest-paths/23-path-with-minimum-effort.md) ([LeetCode](https://leetcode.com/problems/path-with-minimum-effort/)) | Graphs (Shortest Paths) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 171b | [Cheapest Flights Within K Stops](./questions/06-graphs/shortest-paths/24-cheapest-flights-within-k-stops.md) ([LeetCode](https://leetcode.com/problems/cheapest-flights-within-k-stops/)) | Graphs (Shortest Paths) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 171 | [Number of Islands](./questions/06-graphs/traversal-search/01-number-of-islands.md) ([LeetCode](https://leetcode.com/problems/number-of-islands/)) | Graphs (Traversal Search) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 172 | [Shortest Bridge](./questions/06-graphs/traversal-search/02-shortest-bridge.md) ([LeetCode](https://leetcode.com/problems/shortest-bridge)) | Graphs (Traversal Search) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 173 | [Shortest Path to Get All Keys](./questions/06-graphs/traversal-search/11-shortest-path-keys.md) ([LeetCode](https://leetcode.com/problems/shortest-path-to-get-all-keys)) | Graphs (Traversal Search) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
@@ -189,6 +190,7 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 180 | [Evaluate Division](./questions/06-graphs/traversal-search/29-evaluate-division.md) ([LeetCode](https://leetcode.com/problems/evaluate-division/)) | Graphs (Traversal Search) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 181 | [Regions Cut By Slashes](./questions/06-graphs/traversal-search/30-regions-cut-by-slashes.md) ([LeetCode](https://leetcode.com/problems/regions-cut-by-slashes/)) | Graphs (Traversal Search) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 182 | [Reconstruct Itinerary](./questions/06-graphs/traversal-search/34-reconstruct-itinerary.md) ([LeetCode](https://leetcode.com/problems/reconstruct-itinerary/)) | Graphs (Traversal Search) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 182b | [Find Smallest Binary Digit Multiple](./questions/06-graphs/traversal-search/36-find-smallest-binary-digit-multiple.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/find-the-smallest-binary-digit-multiple-of-given-number/)) | Graphs (Traversal Search) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 182 | [Jump Game](./questions/07-dynamic-programming/decision-game/12-jump-game.md) ([LeetCode](https://leetcode.com/problems/jump-game/)) | Dynamic Programming (Decision Game) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 183 | [Jump Game II](./questions/07-dynamic-programming/decision-game/13-jump-game-ii.md) ([LeetCode](https://leetcode.com/problems/jump-game-ii/)) | Dynamic Programming (Decision Game) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 184 | [Best Time to Buy and Sell Stock II](./questions/07-dynamic-programming/decision-game/14-best-time-stock-ii.md) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)) | Dynamic Programming (Decision Game) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
@@ -395,6 +397,7 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 380 | [Min Heap Implementation](./questions/08-backtracking-heaps/heaps/24-min-heap-implementation.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/min-heap-implementation/1)) | Backtracking & Heaps (Heaps) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 381 | [Heap Sort & Linear Heap Creation](./questions/08-backtracking-heaps/heaps/25-heap-sort.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/heap-sort/1)) | Backtracking & Heaps (Heaps) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 382 | [Construct Binary Search Tree from Preorder Traversal](./questions/05-trees/bst/38-construct-bst-from-preorder.md) ([LeetCode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)) | Trees (BST) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 383 | [Implement Trie (Prefix Tree)](./questions/05-trees/trie/01-implement-trie.md) ([LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 
