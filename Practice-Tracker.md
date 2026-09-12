@@ -398,6 +398,9 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 381 | [Heap Sort & Linear Heap Creation](./questions/08-backtracking-heaps/heaps/25-heap-sort.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/heap-sort/1)) | Backtracking & Heaps (Heaps) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 382 | [Construct Binary Search Tree from Preorder Traversal](./questions/05-trees/bst/38-construct-bst-from-preorder.md) ([LeetCode](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)) | Trees (BST) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 383 | [Implement Trie (Prefix Tree)](./questions/05-trees/trie/01-implement-trie.md) ([LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 384 | [Minimum Weight Cycle](./questions/06-graphs/shortest-paths/25-minimum-weight-cycle.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/minimum-weight-cycle/1)) | Graphs (Shortest Paths) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 385 | [Bulb Switcher](./questions/01-arrays-hashing/math-misc/30-bulb-switcher.md) ([LeetCode](https://leetcode.com/problems/bulb-switcher/)) | Arrays & Hashing (Math Misc) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 386 | [Design Add and Search Words Data Structure](./questions/05-trees/trie/02-design-add-and-search-words-data-structure.md) ([LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 
