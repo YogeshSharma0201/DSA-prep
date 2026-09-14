@@ -401,6 +401,8 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 384 | [Minimum Weight Cycle](./questions/06-graphs/shortest-paths/25-minimum-weight-cycle.md) ([GeeksforGeeks](https://www.geeksforgeeks.org/problems/minimum-weight-cycle/1)) | Graphs (Shortest Paths) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 385 | [Bulb Switcher](./questions/01-arrays-hashing/math-misc/30-bulb-switcher.md) ([LeetCode](https://leetcode.com/problems/bulb-switcher/)) | Arrays & Hashing (Math Misc) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 386 | [Design Add and Search Words Data Structure](./questions/05-trees/trie/02-design-add-and-search-words-data-structure.md) ([LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 387 | [Extra Characters in a String](./questions/05-trees/trie/03-extra-characters-in-a-string.md) ([LeetCode](https://leetcode.com/problems/extra-characters-in-a-string/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 388 | [Word Search II](./questions/05-trees/trie/04-word-search-ii.md) ([LeetCode](https://leetcode.com/problems/word-search-ii/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 

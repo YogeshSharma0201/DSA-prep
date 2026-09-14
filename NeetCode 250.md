@@ -372,7 +372,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | Saved | # | Question Link | Difficulty | YouTube Video | Local Solution |
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | `[x]` | 208 | [Implement Trie Prefix Tree](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=oobqoCJlHA0) | [Solution 📄](./questions/05-trees/trie/01-implement-trie.md) |
-| `[ ]` | 211 | [Design Add And Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=BTf05gs_8iU) | - |
-| `[ ]` | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ONstwO1cD7c) | - |
-| `[ ]` | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=asbcE9mZz_U) | - |
+| `[x]` | 211 | [Design Add And Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=BTf05gs_8iU) | [Solution 📄](./questions/05-trees/trie/02-design-add-and-search-words-data-structure.md) |
+| `[x]` | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=ONstwO1cD7c) | [Solution 📄](./questions/05-trees/trie/03-extra-characters-in-a-string.md) |
+| `[x]` | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=asbcE9mZz_U) | [Solution 📄](./questions/05-trees/trie/04-word-search-ii.md) |
 
