@@ -364,8 +364,8 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | [Watch 🎥](https://www.youtube.com/watch?v=WnPLSRLSANE) | [Solution 📄](./questions/01-arrays-hashing/math-misc/02-missing-number.md) |
 | `[x]` | 371 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=gVUrDV4tZfY) | [Solution 📄](./questions/10-strings-matrix-misc/math-misc/50-sum-of-two-integers.md) |
 | `[x]` | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=HAgLH58IgJQ) | [Solution 📄](./questions/10-strings-matrix-misc/math-misc/64-reverse-integer.md) |
-| `[ ]` | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=S0T0y5_K6eE) | - |
-| `[ ]` | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=gT8wY12dD8s) | - |
+| `[x]` | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=S0T0y5_K6eE) | [Solution 📄](./questions/11-bit-manipulation/07-bitwise-and-of-numbers-range.md) |
+| `[x]` | 3133 | [Minimum Array End](https://leetcode.com/problems/minimum-array-end/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=gT8wY12dD8s) | [Solution 📄](./questions/11-bit-manipulation/06-minimum-array-end.md) |
 
 ### Tries
 

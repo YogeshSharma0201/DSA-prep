@@ -403,6 +403,8 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 386 | [Design Add and Search Words Data Structure](./questions/05-trees/trie/02-design-add-and-search-words-data-structure.md) ([LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 387 | [Extra Characters in a String](./questions/05-trees/trie/03-extra-characters-in-a-string.md) ([LeetCode](https://leetcode.com/problems/extra-characters-in-a-string/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 388 | [Word Search II](./questions/05-trees/trie/04-word-search-ii.md) ([LeetCode](https://leetcode.com/problems/word-search-ii/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 389 | [Minimum Array End](./questions/11-bit-manipulation/06-minimum-array-end.md) ([LeetCode](https://leetcode.com/problems/minimum-array-end/)) | Bit Manipulation | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 390 | [Bitwise AND of Numbers Range](./questions/11-bit-manipulation/07-bitwise-and-of-numbers-range.md) ([LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range)) | Bit Manipulation | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 
