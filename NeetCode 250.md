@@ -6,7 +6,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **192** of **250** solved (77%)
+**Overall Completion:** **203** of **250** solved (81%)
 `[████████████░░░]`
 
 ### Topic-wise Progress
@@ -23,14 +23,14 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | **Heap / Priority Queue** | `[███████████████]` | 100% | 12 | 12 |
 | **Backtracking** | `[███████████████]` | 100% | 16 | 16 |
 | **Graphs** | `[█████████████░░]` | 86% | 18 | 21 |
-| **Advanced Graphs** | `[████████░░░░░░░]` | 50% | 5 | 10 |
-| **1-D Dynamic Programming** | `[██████████░░░░░]` | 65% | 11 | 17 |
-| **2-D Dynamic Programming** | `[█████░░░░░░░░░░]` | 31% | 5 | 16 |
+| **Advanced Graphs** | `[█████████████░░]` | 90% | 9 | 10 |
+| **1-D Dynamic Programming** | `[███████████░░░░]` | 71% | 12 | 17 |
+| **2-D Dynamic Programming** | `[██████░░░░░░░░░]` | 38% | 6 | 16 |
 | **Greedy** | `[█████████░░░░░░]` | 57% | 8 | 14 |
 | **Intervals** | `[█████████████░░]` | 86% | 6 | 7 |
 | **Math & Geometry** | `[████████░░░░░░░]` | 54% | 7 | 13 |
-| **Bit Manipulation** | `[████████░░░░░░░]` | 50% | 5 | 10 |
-| **Tries** | `[████░░░░░░░░░░░]` | 25% | 1 | 4 |
+| **Bit Manipulation** | `[███████████░░░░]` | 70% | 7 | 10 |
+| **Tries** | `[███████████████]` | 100% | 4 | 4 |
 
 ---
 
@@ -254,10 +254,10 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=ZyB_gQ8vqGA) | [Solution 📄](./questions/06-graphs/traversal-search/34-reconstruct-itinerary.md) |
 | `[x]` | 1584 | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=f7JOBJIC-NA) | [Solution 📄](./questions/06-graphs/mst-topo/30-min-cost-to-connect-all-points.md) |
 | `[x]` | 778 | [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=amvrKlMLuGY) | [Solution 📄](./questions/09-design-binary-search/binary-search/27-swim-rising-water.md) |
-| `[ ]` | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=6kTZYvNNyps) | - |
-| `[ ]` | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5eIK3zUdYmE) | - |
-| `[ ]` | 1489 | [Find Critical and Pseudo Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=83JnUxrLKJU) | - |
-| `[ ]` | 2392 | [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=57zF8f71U30) | - |
+| `[x]` | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=6kTZYvNNyps) | [Solution 📄](./questions/06-graphs/mst-topo/31-alien-dictionary.md) |
+| `[x]` | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=5eIK3zUdYmE) | [Solution 📄](./questions/06-graphs/shortest-paths/24-cheapest-flights-within-k-stops.md) |
+| `[x]` | 1489 | [Find Critical and Pseudo Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=83JnUxrLKJU) | [Solution 📄](./questions/06-graphs/mst-topo/32-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.md) |
+| `[x]` | 2392 | [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=57zF8f71U30) | [Solution 📄](./questions/06-graphs/mst-topo/33-build-a-matrix-with-conditions.md) |
 | `[ ]` | 2709 | [Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=L2G57P6Y6sE) | - |
 
 ### 1-D Dynamic Programming
@@ -276,7 +276,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=lXVy6YWFcRM) | [Solution 📄](./questions/07-dynamic-programming/subarray-sequence/07-maximum-product-subarray.md) |
 | `[x]` | 139 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Sx9NNgInc3A) | [Solution 📄](./questions/07-dynamic-programming/string-dp/21-word-break.md) |
 | `[x]` | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=cjWnW0hdF1Y) | [Solution 📄](./questions/07-dynamic-programming/subarray-sequence/30-longest-increasing-subsequence.md) |
-| `[ ]` | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=IsvocB5BJhw) | - |
+| `[x]` | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=IsvocB5BJhw) | [Solution 📄](./questions/07-dynamic-programming/knapsack-subset/21-partition-equal-subset-sum.md) |
 | `[x]` | 377 | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=dw2nMCxG0ik) | [Solution 📄](./questions/07-dynamic-programming/knapsack-subset/20-combination-sum-iv.md) |
 | `[ ]` | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=HLZLwjzIVGo) | - |
 | `[x]` | 343 | [Integer Break](https://leetcode.com/problems/integer-break/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=in6QbUPMJ3I) | [Solution 📄](./questions/07-dynamic-programming/fibonacci-1d/06-integer-break.md) |
@@ -288,7 +288,7 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | :---: | :---: | :--- | :---: | :---: | :--- |
 | `[ ]` | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=IlEsdxuD4lY) | - |
 | `[x]` | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=d3UOz7zdE4I) | [Solution 📄](./questions/07-dynamic-programming/grid-dp/09-unique-paths-ii.md) |
-| `[ ]` | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=pGMsrvt0fpk) | - |
+| `[x]` | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=pGMsrvt0fpk) | [Solution 📄](./questions/07-dynamic-programming/grid-dp/10-min-path-sum.md) |
 | `[x]` | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Ua0GhsJSlWM) | [Solution 📄](./questions/07-dynamic-programming/string-dp/33-longest-common-subsequence.md) |
 | `[ ]` | 1049 | [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=gdXkkmzvR3c) | - |
 | `[ ]` | 309 | [Best Time to Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=I7j0F7AHpb8) | - |
