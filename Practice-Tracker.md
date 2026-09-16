@@ -408,6 +408,10 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 388 | [Word Search II](./questions/05-trees/trie/04-word-search-ii.md) ([LeetCode](https://leetcode.com/problems/word-search-ii/)) | Trees (Trie) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 389 | [Minimum Array End](./questions/11-bit-manipulation/06-minimum-array-end.md) ([LeetCode](https://leetcode.com/problems/minimum-array-end/)) | Bit Manipulation | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 390 | [Bitwise AND of Numbers Range](./questions/11-bit-manipulation/07-bitwise-and-of-numbers-range.md) ([LeetCode](https://leetcode.com/problems/bitwise-and-of-numbers-range)) | Bit Manipulation | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 391 | [Last Stone Weight II](./questions/07-dynamic-programming/knapsack-subset/23-last-stone-weight-ii.md) ([LeetCode](https://leetcode.com/problems/last-stone-weight-ii/)) | Dynamic Programming (Knapsack & Subset) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 392 | [Best Time to Buy and Sell Stock with Cooldown](./questions/07-dynamic-programming/decision-game/16-best-time-stock-cooldown.md) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)) | Dynamic Programming (Decision & Game) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 393 | [Coin Change II](./questions/07-dynamic-programming/knapsack-subset/24-coin-change-ii.md) ([LeetCode](https://leetcode.com/problems/coin-change-ii/)) | Dynamic Programming (Knapsack & Subset) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 394 | [Target Sum](./questions/07-dynamic-programming/knapsack-subset/25-target-sum.md) ([LeetCode](https://leetcode.com/problems/target-sum/)) | Dynamic Programming (Knapsack & Subset) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 
