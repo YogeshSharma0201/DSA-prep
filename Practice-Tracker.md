@@ -216,6 +216,7 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 200 | [Minimum Cost Tree From Leaf Values](./questions/07-dynamic-programming/interval-dp/35-minimum-cost-tree-leaf.md) ([LeetCode](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)) | Dynamic Programming (Interval Dp) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 201 | [Minimum Cost to Merge Stones](./questions/07-dynamic-programming/interval-dp/39-minimum-cost-to-merge-stones.md) ([LeetCode](https://leetcode.com/problems/minimum-cost-to-merge-stones/)) | Dynamic Programming (Interval Dp) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 202 | [Minimum Cost to Cut a Stick](./questions/07-dynamic-programming/interval-dp/41-minimum-cost-to-cut-a-stick.md) ([LeetCode](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/)) | Dynamic Programming (Interval Dp) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 202b | [Stone Game](./questions/07-dynamic-programming/interval-dp/42-stone-game.md) ([LeetCode](https://leetcode.com/problems/stone-game/)) | Dynamic Programming (Interval Dp) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 203 | [0/1 Knapsack Problem](./questions/07-dynamic-programming/knapsack-subset/16-01-knapsack.md) ([LeetCode](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)) | Dynamic Programming (Knapsack Subset) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 204 | [Subset Sum Problem](./questions/07-dynamic-programming/knapsack-subset/17-subset-sum.md) ([LeetCode](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)) | Dynamic Programming (Knapsack Subset) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 205 | [Coin Change](./questions/07-dynamic-programming/knapsack-subset/18-coin-change.md) ([LeetCode](https://leetcode.com/problems/coin-change/)) | Dynamic Programming (Knapsack Subset) | `[ ]` `[ ]` `[ ]` `[ ]` `[ ]` |
@@ -412,6 +413,7 @@ This sheet contains a list of all your stored DSA questions. Use the checkboxes 
 | 392 | [Best Time to Buy and Sell Stock with Cooldown](./questions/07-dynamic-programming/decision-game/16-best-time-stock-cooldown.md) ([LeetCode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)) | Dynamic Programming (Decision & Game) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 393 | [Coin Change II](./questions/07-dynamic-programming/knapsack-subset/24-coin-change-ii.md) ([LeetCode](https://leetcode.com/problems/coin-change-ii/)) | Dynamic Programming (Knapsack & Subset) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 | 394 | [Target Sum](./questions/07-dynamic-programming/knapsack-subset/25-target-sum.md) ([LeetCode](https://leetcode.com/problems/target-sum/)) | Dynamic Programming (Knapsack & Subset) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
+| 395 | [Interleaving String](./questions/07-dynamic-programming/string-dp/36-interleaving-string.md) ([LeetCode](https://leetcode.com/problems/interleaving-string/)) | Dynamic Programming (String DP) | `[x]` `[ ]` `[ ]` `[ ]` `[ ]` |
 
 
 

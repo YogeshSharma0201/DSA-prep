@@ -6,8 +6,8 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 
 ## 📊 Progress Dashboard
 
-**Overall Completion:** **203** of **250** solved (81%)
-`[████████████░░░]`
+**Overall Completion:** **209** of **250** solved (84%)
+`[█████████████░░]`
 
 ### Topic-wise Progress
 
@@ -23,9 +23,9 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | **Heap / Priority Queue** | `[███████████████]` | 100% | 12 | 12 |
 | **Backtracking** | `[███████████████]` | 100% | 16 | 16 |
 | **Graphs** | `[█████████████░░]` | 86% | 18 | 21 |
-| **Advanced Graphs** | `[█████████████░░]` | 90% | 9 | 10 |
+| **Advanced Graphs** | `[██████████████░]` | 90% | 9 | 10 |
 | **1-D Dynamic Programming** | `[███████████░░░░]` | 71% | 12 | 17 |
-| **2-D Dynamic Programming** | `[██████░░░░░░░░░]` | 38% | 6 | 16 |
+| **2-D Dynamic Programming** | `[███████████░░░░]` | 75% | 12 | 16 |
 | **Greedy** | `[█████████░░░░░░]` | 57% | 8 | 14 |
 | **Intervals** | `[█████████████░░]` | 86% | 6 | 7 |
 | **Math & Geometry** | `[████████░░░░░░░]` | 54% | 7 | 13 |
@@ -294,8 +294,8 @@ This file tracks the status of the **NeetCode 250** coding interview prep roadma
 | `[x]` | 309 | [Best Time to Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=I7j0F7AHpb8) | [Solution 📄](./questions/07-dynamic-programming/decision-game/16-best-time-stock-cooldown.md) |
 | `[x]` | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=Mjy4hd2xgrs) | [Solution 📄](./questions/07-dynamic-programming/knapsack-subset/24-coin-change-ii.md) |
 | `[x]` | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=g0npyaQtAQM) | [Solution 📄](./questions/07-dynamic-programming/knapsack-subset/25-target-sum.md) |
-| `[ ]` | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=3Rw3p9LrgvE) | - |
-| `[ ]` | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=uhgdXOlGYqE) | - |
+| `[x]` | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=3Rw3p9LrgvE) | [Solution 📄](./questions/07-dynamic-programming/string-dp/36-interleaving-string.md) |
+| `[x]` | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=uhgdXOlGYqE) | [Solution 📄](./questions/07-dynamic-programming/interval-dp/42-stone-game.md) |
 | `[ ]` | 1140 | [Stone Game II](https://leetcode.com/problems/stone-game-ii/) | 🟡 Medium | [Watch 🎥](https://www.youtube.com/watch?v=I-z-u0zfQtg) | - |
 | `[ ]` | 329 | [Longest Increasing Path In a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=wCc_nd-GiEc) | - |
 | `[ ]` | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Hard | [Watch 🎥](https://www.youtube.com/watch?v=-RDzMJ33nx8) | - |
